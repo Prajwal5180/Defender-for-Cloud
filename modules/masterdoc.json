@@ -1,0 +1,34 @@
+[ {
+  "Name": "Microsoft Defender for Cloud Workshop",
+  "Language": "English",
+  "Files": [
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/getting-started-with-lab.md",
+      "Order": 1
+    },
+    
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/overview.md",
+      "Order": 2
+    },
+    
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module1-mdcwalkthrough.md",
+      "Order": 3
+    },
+   
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module2-understanding-your-cloudattack-surface.md",
+      "Order": 4
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module3-dashboards.md",
+      "Order": 5
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module4-data-security-posture-management.md",
+      "Order": 6
+    }
+    
+  ]
+} ]

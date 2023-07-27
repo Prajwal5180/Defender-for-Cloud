@@ -38,12 +38,16 @@ When the deployment is complete, you should see the following:
 
 #### Subscription upgrade and agents installation
 1. Open **Azure Portal** and navigate to **Microsoft Defender for Cloud** blade.
-2. Click on **Getting started** page from the left pane, On the **Upgrade** Tab, select subscription (Azure subscription 1) and press **Upgrade**.
-   >Note: You may need to wait for a few minutes for the upgrade to complete.
-3. Select both **Azure subscription 1**, and also the **workspace name** underneath it. Click on **Upgrade** to upgrade.
-   ![Template deployment completed](../Images/mdfc-gettingstarted.png?raw=true)
 
-4. Select the **Azure Subscription 1** and click **Install agents** to install agents to the resources in the subscription.
+2. Click on **Getting started** page from the left pane, On the **Upgrade** Tab, select subscription (Azure subscription 1) and press **Upgrade**.
+
+   >Note: You may need to wait for a few minutes for the upgrade to complete.
+
+4. Select both **Azure subscription 1**, and also the **workspace name** underneath it. Click on **Upgrade** to upgrade.
+
+   ![Template deployment completed](../images/mdfc-gettingstarted.png)
+
+5. Select the **Azure Subscription 1** and click **Install agents** to install agents to the resources in the subscription.
 
    ![Install Agents](../Images/mdfc-installagents.png?raw=true)
 

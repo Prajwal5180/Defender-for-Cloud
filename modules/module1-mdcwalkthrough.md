@@ -1,15 +1,15 @@
 # Module 1 - Exploring Microsoft Defender for Cloud
 
 
-### Task 1: Understanding Microsoft Defender for Cloud dashboard 
+### Task 1: Understanding Microsoft Defender for Cloud Dashboard 
 
 1. Open **Azure Portal** and search for **Microsoft Defender for Cloud (1)** and then click on it from the search results **(2)**.
 
     ![Microsoft Defender for Cloud](../images/M0-T1-S1.2.png)   
 
-2. On the **Overview (1)** blade notes that it now provides a unified view into the security posture and includes multiple independent cloud security pillars such as **Security posture, Regulatory compliance, Workload protections, Firewall Manager, Inventory, and Information protection (preview) (2)**. Each of these pillars also has its own dedicated dashboard allowing deeper insights and actions around that vertical, providing easy access and better visibility for security professionals.
+2. On the **Overview (1)** blade notes that it now provides a unified view into the security posture and includes multiple independent cloud security pillars such as **Security posture, Regulatory compliance, Workload protections, Firewall Manager, Inventory, and Information Protection (preview) (2)**. Each of these pillars also has its own dedicated dashboard allowing deeper insights and actions around that vertical, providing easy access and better visibility for security professionals.
 
-   > **Info**: Microsoft Defender for Cloud takes time to populate information such as secure score, compliance, recommendations etc. after enabling the services and enrolling the servers to Microsoft Defender for Cloud.
+   > **Info**: Microsoft Defender for Cloud takes time to populate information such as secure score, compliance, recommendations, etc. after enabling the services and enrolling the servers to Microsoft Defender for Cloud.
  
    ![Microsoft Defender for Cloud Snapshot](../images/M1-T1-S1.png)  
 
@@ -18,37 +18,35 @@
 
    ![Microsoft Defender for Cloud Snapshot](../images/M1-T1-S2.png)  
 
-4. Click on the **What’s new** button – a new tab opens with the latest release notes where you can stay current on the new features, bug fixes and more.
+4. Click on the **What’s new** button – a new tab opens with the latest release notes where you can stay current on the new features, bug fixes, and more.
 
     ![Microsoft Defender for Cloud Snapshot](../images/M1-T1-S4.png)  
 	
- 5. Note the **high-level numbers** at the top menu; This view allows you to see a summary of your subscriptions, active recommendations, security alerts alongside with connected cloud accounts.
+5. Note the **high-level numbers** at the top menu; This view allows you to see a summary of your subscriptions, active recommendations, and security alerts alongside connected cloud accounts.
 
     ![Microsoft Defender for Cloud: Top menu](../images/M1-T1-S5.png) 
 
+6. From the top menu bar, **click** on **Azure subscriptions**.
+	
+    ![Microsoft Defender for Cloud: Coverage](../images/M1-T1-S6.png)
 
-6. From the top menu bar, **click** on **Azure subscriptions**. 
-
-   	![Microsoft Defender for Cloud: Coverage](../images/M1-T1-S6.png)
-
-  	- This will bring you into the environment settings. Then select the available subscription. 
+    - This will bring you into the environment settings. Then select the available subscription. 
 
    	![Microsoft Defender for Cloud: Coverage](../images/M1-T1-S6.1.png)
 
+7. On the **Defender plans** page, note that your subscription is fully covered – which means that your subscription is covered by Microsoft Defender for Cloud. 	
 
-7. On the **Defender plans** page, note that your subscription is fully covered – means that your subscription is covered by Microsoft Defender for Cloud. 	
+    ![Microsoft Defender for Cloud: Coverage](../images/M1-T1-S7.png)
 
-   	![Microsoft Defender for Cloud: Coverage](../images/M1-T1-S7.png)
+    > **Info**: This page shows a list of subscriptions and their coverage type. You can use this page to find subscriptions that are not covered by Microsoft Defender for Cloud and help you identify “shadow IT” subscriptions.
 
-     > **Info**: This page shows a list of subscriptions and their coverage type. You can use this page to find subscriptions that are not covered by Microsoft Defender for Cloud and help you identify “shadow IT” subscriptions.
+8. Go back to the **Overview** page, and look at the **Secure Posture** tile, you can see your current score along with the number of completed controls and recommendations. Clicking on this tile will redirect you to a drill-down view across subscriptions.
 
-8. Go back to the **Overview** page, and look at the **Secure Posture** tile, you can see your current score along with the number of completed controls and recommendations. Clicking on this tile will redirect you to drill down view across subscriptions.
+    ![Overview: Secure Score tile](../images/M1-T1-S8.png)
 
-   	![Overview: Secure Score tile](../images/M1-T1-S8.png)
+    > **Info**: The higher the score, the lower the identified risk level.
 
-     > **Info**: The higher the score, the lower the identified risk level.
-
-9. On the **Regulatory Compliance (1)** tile, you can get insights into your compliance posture based on continuous assessment of both Azure and hybrid cloud environments. This tile shows the following standards which are **Azure Security Benchmark(2), ISO 27001, PCI DSS 3.2.1 and SOC TSP(3)**. Click on **Show all 4 (4)** to check the compliance status.
+9. On the **Regulatory Compliance (1)** tile, you can get insights into your compliance posture based on continuous assessment of both Azure and hybrid cloud environments. This tile shows the following standards which are **Azure Security Benchmark(2), ISO 27001, PCI DSS 3.2.1, and SOC TSP(3)**. Click on **Show all 4 (4)** to check the compliance status.
  
      > Clicking on this tile will redirect you to the Regulatory Compliance dashboard – where you can add additional standards and explore the current ones. 
 
@@ -61,15 +59,15 @@
 
 11. Next Click on **Inventory** from the **General** section of the Microsoft Defender for Cloud. It shows the number of unmonitored VMs alongside the total covered resources - **you should expect to have zero unmonitored VMs**. Resources are classified according to their health status.
 
-     > ❗ Important: <br>
-     > Unmonitored VMs are considered as virtual machines that have Log Analytics agent deployed, but the agent isn't sending data or has other health issues.
+     > Info: 
+     > Unmonitored VMs are considered virtual machines that have a Log Analytics agent deployed, but the agent isn't sending data or has other health issues.
 
     ![Overview: Secure Score tile](../images/msdefender5.1.png)   
 
 
 ### Task 2: Exploring Secure Score and Recommendations 
 
-Previously, we briefly explored the Secure Score tile on the overview page. Now let’s dive into this capability and the associated recommendations. Microsoft Defender for Cloud continually assesses your resources. All findings are aggregated into a single score (Secure Score) which measures your current security posture of your subscription; the higher the score, the lower the identified risk level.
+Previously, we briefly explored the Secure Score tile on the overview page. Now let’s dive into this capability and the associated recommendations. Microsoft Defender for Cloud continually assesses your resources. All findings are aggregated into a single score (Secure Score) which measures the current security posture of your subscription; the higher the score, the lower the identified risk level.
 
 
 1. In the **Microsoft Defender for Cloud Overview blade**. From the left navigation pane, under the **Cloud Security** section, press on the **Secure posture** button.
@@ -78,7 +76,7 @@ Previously, we briefly explored the Secure Score tile on the overview page. Now 
 
 2. On the Secure Score page, **review your current overall secure score percentrage**.
 
-	> **Note**: Your score is shown as a percentage value, but you can also see the number of points which the score is being calculated based on. 
+	> **Note**: Your score is shown as a percentage value, but you can also see the number of points on which the score is being calculated based on. 
 
     ![Overall Secure Score](../images/M1-T2-S2.png)
 
@@ -95,7 +93,7 @@ Previously, we briefly explored the Secure Score tile on the overview page. Now 
 
     ![Overall Secure Score](../images/M1-T2-S3.png)
 
-2. On the top menu, click on **Download CSV report** button – this allow you to get a snapshot of your resources, their health status and the associated recommendations. You can use it for pivoting and reporting.
+2. On the top menu, click on the **Download CSV report** button – this allows you to get a snapshot of your resources, their health status, and the associated recommendations. You can use it for pivoting and reporting.
 
      ![Overall Secure Score](../images/M1-T3-S3.png)
 
@@ -125,14 +123,14 @@ Previously, we briefly explored the Secure Score tile on the overview page. Now 
   
 12. Wait for a notification: ✅ **Remediation successful** - Successfully remediated the issues on the selected resources. 
     
-    > **Note**: It can take several minutes after remediation completes to see the resources in the 'healthy resources' tab. You can move to next task and come back later to check on this.
+    > **Note**: It can take several minutes after remediation completes to see the resources in the 'healthy resources' tab. You can move to the next task and come back later to check on this.
 
-    > **Info**: In the recommendation list, you can now see some recommendations flagged as in preview. They aren’t included in the calculation of your score. They should be still remediated so that when the preview period ends, they will contribute towards your final score.
+    > **Info**: In the recommendation list, you can now see some recommendations flagged as in the preview. They aren’t included in the calculation of your score. They should be still remediated so that when the preview period ends, they will contribute towards your final score.
 
 
 ### Task 4: Exploring the Inventory capability
 
-Asset inventory dashboard allows you to get a single pane of glass view to all your resources covered by Microsoft Defender for Cloud. It also provides per-resource visibility to all Microsoft Defender for Cloud’s information and additional resource details including security posture and protection status. Since this dashboard is based on Azure Resource Graph (ARG), you can run queries across subscriptions at a large scale, quickly and easily.
+Asset inventory dashboard allows you to get a single pane of glass view of all your resources covered by Microsoft Defender for Cloud. It also provides per-resource visibility to all Microsoft Defender for Cloud’s information and additional resource details including security posture and protection status. Since this dashboard is based on Azure Resource Graph (ARG), you can run queries across subscriptions at a large scale, quickly and easily.
 
 1. Type **Microsoft Defender for Cloud** in the search box located on the top of the **Azure Portal** page and click to open it. From the left navigation pane, under the **General** section, select the **Inventory** button.
 
@@ -148,13 +146,13 @@ Asset inventory dashboard allows you to get a single pane of glass view to all y
 
 4. Notice the number of **unhealthy resources**, The unhealthy resources are the resources with actionable recommendations based on the selected filter.
 
-5. Notice the **unmonitored resources**, The unmonitored resources indicate if there are resources with Log Analytics agent deployed but with health issues. Since we enabled the auto-provisioning in the previous module, all existing VMs are covered and connected, which means they are monitored.
+5. Notice the **unmonitored resources**, The unmonitored resources indicate if there are resources with the Log Analytics agent deployed but with health issues. Since we enabled the auto-provisioning in the previous module, all existing VMs are covered and connected, which means they are monitored.
 
-6. Use the **Filter by name** box to search for **linux** **(1)**. You should now see a filtered view containing your desired resource: **asclab-linux**. Hover on the red bar in the **recommendations** column to see a tooltip with the **active recommendations (2)**.. You should expect to see **Active-xx of xx Recommendations** – these are the active recommendations you must attend.
+6. Use the **Filter by name** box to search for **linux** **(1)**. You should now see a filtered view containing your desired resource: **asclab-linux**. Hover on the red bar in the **recommendations** column to see a tooltip with the **active recommendations (2)**. You should expect to see **Active-xx of xx Recommendations** – these are the active recommendations you must attend.
 
     ![linux-recommendations](../images/ex3.step7.png)
 
-7. Open the resource health pane by selecting the resource. Click on **asclab-linux**. Alternately. you can also right-click on any resource and select **view resource**. You may not see **view resource** directly due to different screen resolution, then you have to click on ellipse(...) and then select **view resource**.
+7. Open the resource health pane by selecting the resource. Click on **asclab-linux**. Alternately. you can also right-click on any resource and select **view resource**. You may not see **view resource** directly due to different screen resolutions, then you have to click on ellipse(...) and then select **view resource**.
 
     ![Remediate a resource](../images/viewres.png)
 
@@ -162,7 +160,7 @@ Asset inventory dashboard allows you to get a single pane of glass view to all y
 
     ![Remediate a resource](../images/healthpreview.png)
 
-    > **Note**: It could take up-to 24 hours for all the recommendations to show up. And it is possible that during the lab time this may not show up – which is the case sometimes. If you don't see the data in **recommendations**. You can continue to the next exercise and verify this later.
+    > **Note**: It could take up to 24 hours for all the recommendations to show up. And it is possible that during lab time, this may not show up – which is the case sometimes. If you don't see the data in **recommendations**. You can continue to the next exercise and verify this later.
 
 9. Navigate back to the Inventory page and clear the search keyword **linux**. Then from the filter menu, select the **Resource Groups (1)** filter and then provide the **value (2)** **asclab-aks** (Unselect remaining), and click on **Ok (3)**. Using this filter, you can see all resources related to the predefined Kubernetes resources which are monitored with active recommendations.
 
@@ -170,23 +168,23 @@ Asset inventory dashboard allows you to get a single pane of glass view to all y
 
     > **Note:** The list can be filtered and sorted.
 
-10. From the filter menu, select the **Resource Group** filter and **select all** under the Value. Again from the filter menu, select **Recommendations**, uncheck the **select all** option under the Value and then select the **Auditing on SQL Server should be enabled** and click on **Ok**. You can also use the search area within the filter to better find across the list. When you are done exploring remember to clear your filter.
+10. From the filter menu, select the **Resource Group** filter and **select all** under the Value. Again from the filter menu, select **Recommendations**, uncheck the **select all** option under the Value, and then select the **Auditing on SQL Server should be enabled** and click on **Ok**. You can also use the search area within the filter to better find across the list. When you are done exploring remember to clear your filter.
 
-    > **Note**: If you don't see **Auditing on SQL Server should be enabled** in search results that means it is not loaded yet to recommendations and it could take up-to 24 hours for all the recommendations to show up. It is possible that during the lab time this may not show up – which is the case sometimes. If you don't see the data in **Recommendations**, you can note down this step number then continue to the next exercise and verify this later.
+    > **Note**: If you don't see **Auditing on SQL Server should be enabled** in search results that means it is not loaded yet to recommendations and it could take up to 24 hours for all the recommendations to show up. It is possible that during lab time, this may not show up – which is the case sometimes. If you don't see the data in **Recommendations**, you can note down this step number then continue to the next exercise and verify this later.
 
 11. Tags are a very common asset management feature within Azure. With the help of this feature, resources can be tagged using a Tag name and value. These assigned tags can organize your assets and categorize them with the help of filters. Let us now assign the following Tags:
 
   * Filter the **Resource type** column to include only **App Services or web services**: Select the **Resource type** filter and select **app services** under the Value and Click on **OK**
-  * **Select** the checkboxes of the two app services named *asclab-fa-xx* and *asclab-app-xx*. (Here **xx** is the unique id of resource).
+  * **Select** the checkboxes of the two app services named *asclab-fa-xx* and *asclab-app-xx*. (Here **xx** is the unique id of the resource).
   * From the top menu, click **Assign tags**
   * Assign `Environment` as the name and  `Production` as the value.
   * Click **Save**.
 
-   > **Note**: If you don't see App Services in Resource type filter that means it is not loaded yet to recommendations, Note down this step number and verify this later.
+   > **Note**: If you don't see App Services in the Resource type filter that means it is not loaded yet to recommendations, Note down this step number and verify this later.
 
    ![Inventory: Assign tags](../images/assigntagsv1.gif?raw=true)
    
-12. From the filter pane, remove the **Resource type** filter then go to **Add filter** and notice the **Security findings** filter – it allows you to find all resources that are prone to a specific vulnerability. You can also search for CVE, KB ID, name and missing update.
+12. From the filter pane, remove the **Resource type** filter then go to **Add filter** and notice the **Security findings** filter – it allows you to find all resources that are prone to a specific vulnerability. You can also search for CVE, KB ID, name, and missing update.
 
 13. From the filter pane, remove the **Security findings** filter if you added in the previous step then from the top menu, click on **Open query**.
 
@@ -206,8 +204,8 @@ Asset inventory dashboard allows you to get a single pane of glass view to all y
 
 The pricing criteria depends on the plan you enable. Navigate to [Pricing Page](https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/?v=17.23h)
 
-In addition, as a part of Foundational CSPM (free) you get several items like Secure Score, Asset Inventory, Security Recommendations etc. free of charge. Let's review the [Foundational CSPM vs. Defender CSPM capabilities](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management)
+In addition, as a part of Foundational CSPM (free), you get several items like Secure Score, Asset Inventory, Security Recommendations, etc. free of charge. Let's review the [Foundational CSPM vs. Defender CSPM capabilities](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management)
 
-In addition you can leverage ***Cost Estimation*** workbook to plan for spend
+In addition, you can leverage the **Cost Estimation** workbook to plan for spend.
 
 ![MDC pricing](../images/mdfc-pricing.png?raw=true)

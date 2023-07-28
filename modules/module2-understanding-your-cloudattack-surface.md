@@ -64,33 +64,25 @@ Defender for Cloud uses the graph to perform an attack path analysis (Attack Pat
 
    ![Cloud Security Explorer VM example](../images/select-query.png?raw=true)
 
-4. You will see a list of machines that are not only publicly exposed but also are vulnerable. Now, let's expand this to identify machines that have permissions to other resources (managed identities). 
+4. You will see a list of machines that are not only publicly exposed but also vulnerable. Now, let's expand this to identify machines that have permissions to other resources (managed identities). 
 
-5. Click on the **plus (1)** next to Virtual Machines (group), from the drop down of **select condtion (2)** Select **Identity & Access (3)** , and select **Can authenticate as (4)**.
+5. Click on the **plus (1)** next to Virtual Machines (group), from the drop-down of **select Condition (2)** Select **Identity & Access (3)**, and select **Can authenticate as (4)**.
 
-   ![Cloud Security Explorer Custom Scenario](../images/mdfc-cloudsecurityexplorerplus.png?raw=true)
+   ![Cloud Security Explorer Custom Scenario](../images/identity-authenticate.png?raw=true)
 
-6. 
+6. From the drop-down of **select resource group type (1)**, select **Application identities (2)**, click on **Done (3)**, and click on **plus (4)** next to Application identities (group).
 
-    ![Cloud Security Explorer Custom Scenario](../images/mdfc-cloudsecurityexploreridentity.png?raw=true)
+    ![Cloud Security Explorer Custom Scenario](../images/identity-application.png?raw=true)
 
-7. Select Application Identities and click Done
+7. Now let's add the resource type to which this VM has access via managed identity. From the drop-down of **Select condition (1)**, select **Identity & Access (2)**, and select **Has permissions to (3)**.
    
-    ![Cloud Security Explorer Custom Scenario](../images/mdfc-cloudsecurityexplorerappidentity.png?raw=true)
+    ![Cloud Security Explorer Custom Scenario](../images/identity-permission.png?raw=true)
 
-8. Now let's add the resource type to which this VM has access via managed identity. Select the + sign next to Application identities(group), select Identity & Access and Has permissions to
+8. Now you will need to select the type of resource that this VM can access using a managed identity. From the drop-down of **Select resource type (1)**, select **Object storage (2)**, and click on **Done**.
 
-    ![Cloud Security Explorer Custom Scenario](../images/mdfc-cloudsecurityexplorermiaccess.png?raw=true)
+    ![Cloud Security Explorer Custom Scenario](../images/object-storage.png?raw=true)
 
-9. Now you will need to select the type of resource that this VM can access using a managed identity
-   
-    ![Cloud Security Explorer Custom Scenario](../images/mdfc-cloudsecurityexplorermiaccess2.png?raw=true)
-
-10. Click on the + sign next to Type of Resource and you will see the resource types you can query. We will select Object Storage and select Done.
-
-    ![Cloud Security Explorer Custom Scenario](../images/mdfc-cloudsecurityexplorermiaccess3.png?raw=true). 
-
-11. When we click search you will see a list of machines that can be the target of this attack path
+9. Then click on **Search** button, and you will see a list of machines that can be the target of this attack path.
 
     ![Cloud Security Explorer Custom Scenario](../images/mdfc-cloudsecurityexplorersearchresults.png?raw=true). 
 

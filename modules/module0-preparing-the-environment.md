@@ -6,7 +6,7 @@
 
 1. Open **Azure Portal** and search for **Microsoft Defender for Cloud (1)** and then click on it from the search results **(2)**.
 
-   ![Microsoft Defender for Cloud](../images/M0-T1-S1.1.png)   
+   ![Microsoft Defender for Cloud](../images/M0-T1-S1.2.png)   
 
 2. Click on **Getting started (1)** page from the left pane, On the **Upgrade (2)** Tab, select both **Azure subscription (3)**, and also the **Workspace name** underneath it. Click on **Upgrade (4)**.
 

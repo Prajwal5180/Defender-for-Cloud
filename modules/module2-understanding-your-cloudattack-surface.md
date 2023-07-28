@@ -86,4 +86,3 @@ Defender for Cloud uses the graph to perform an attack path analysis (Attack Pat
 
     ![Cloud Security Explorer Custom Scenario](../images/mdfc-cloudsecurityexplorersearchresults.png?raw=true). 
 
-### Continue with the next module: [Module 3 - Dashboards](../Modules/Module3:Dashboards.md)

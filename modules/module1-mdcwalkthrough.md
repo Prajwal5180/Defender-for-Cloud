@@ -1,7 +1,7 @@
 # Module 1 - Exploring Microsoft Defender for Cloud
 
 
-## Task 1: Understanding Microsoft Defender for Cloud dashboard 
+### Task 1: Understanding Microsoft Defender for Cloud dashboard 
 
 1. Open **Azure Portal** and search for **Microsoft Defender for Cloud (1)** and then click on it from the search results **(2)**.
 
@@ -67,7 +67,7 @@
     ![Overview: Secure Score tile](../images/msdefender5.1.png)   
 
 
-## Task 2: Exploring Secure Score and Recommendations 
+### Task 2: Exploring Secure Score and Recommendations 
 
 Previously, we briefly explored the Secure Score tile on the overview page. Now let’s dive into this capability and the associated recommendations. Microsoft Defender for Cloud continually assesses your resources. All findings are aggregated into a single score (Secure Score) which measures your current security posture of your subscription; the higher the score, the lower the identified risk level.
 
@@ -89,7 +89,7 @@ Previously, we briefly explored the Secure Score tile on the overview page. Now 
 5. On the bottom part, you can see a list of subscriptions and their current score. To view the recommendations behind the score, click on **view recommendations**.
 
 
-## Task 3: Exploring Security Controls and Recommendations 
+### Task 3: Exploring Security Controls and Recommendations 
 
 1. On the **Recommendations (1)** page, pay attention to the first part of the page; the **summary view (2)** which includes the current score, progress on the recommendations (both completed security controls and recommendations) and resource health (by severity).
 
@@ -130,7 +130,7 @@ Previously, we briefly explored the Secure Score tile on the overview page. Now 
     > **Info**: In the recommendation list, you can now see some recommendations flagged as in preview. They aren’t included in the calculation of your score. They should be still remediated so that when the preview period ends, they will contribute towards your final score.
 
 
-## Task 4: Exploring the Inventory capability
+### Task 4: Exploring the Inventory capability
 
 Asset inventory dashboard allows you to get a single pane of glass view to all your resources covered by Microsoft Defender for Cloud. It also provides per-resource visibility to all Microsoft Defender for Cloud’s information and additional resource details including security posture and protection status. Since this dashboard is based on Azure Resource Graph (ARG), you can run queries across subscriptions at a large scale, quickly and easily.
 
@@ -202,7 +202,7 @@ Asset inventory dashboard allows you to get a single pane of glass view to all y
 
 
 
-## Task 5: Understanding pricing
+### Task 5: Understanding pricing
 
 The pricing criteria depends on the plan you enable. Navigate to [Pricing Page](https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/?v=17.23h)
 

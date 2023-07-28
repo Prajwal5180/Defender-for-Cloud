@@ -59,8 +59,6 @@
 
 ## Task 2: Exploring Secure Score and Recommendations 
 
-**Exploring Secure Score**
-
 Previously, we briefly explored the Secure Score tile on the overview page. Now let’s dive into this capability and the associated recommendations. Microsoft Defender for Cloud continually assesses your resources. All findings are aggregated into a single score (Secure Score) which measures your current security posture of your subscription; the higher the score, the lower the identified risk level.
 
 
@@ -103,17 +101,17 @@ Previously, we briefly explored the Secure Score tile on the overview page. Now 
    - Freshness interval: **30 Min** 
    - Tactics and techniques: **Initial Access**
 
-    ![Recommendation top menu](../images/dirsto1.png)
+   ![Recommendation top menu](../images/stacc-public-access.png)
 
 5. The next important part is the **Remediation Steps** which contains the remediation logic where you can remediate the selected resource/s.
 
 6. Under **Affected resources**, **select a resource** (the single **storage account** on the Unhealthy resources) and click on **Fix**. This will automatically apply the remediation on the selected resource.
 
-     ![](../images/dirsto1.png)
+     ![](../images/affectedresources.png)
   
 11. This will open a new window - **Fixing resources**, review the implications for this remediation and click on **Fix 1 resource**.
 
-     ![](../images/dirsto1.png)
+     ![](../images/ex2.step13.png)
   
 12. Wait for a notification: ✅ **Remediation successful** - Successfully remediated the issues on the selected resources. 
     
@@ -122,48 +120,76 @@ Previously, we briefly explored the Secure Score tile on the overview page. Now 
     > **Info**: In the recommendation list, you can now see some recommendations flagged as in preview. They aren’t included in the calculation of your score. They should be still remediated so that when the preview period ends, they will contribute towards your final score.
 
 
+## Task 3: Exploring the Inventory capability
 
+Asset inventory dashboard allows you to get a single pane of glass view to all your resources covered by Microsoft Defender for Cloud. It also provides per-resource visibility to all Microsoft Defender for Cloud’s information and additional resource details including security posture and protection status. Since this dashboard is based on Azure Resource Graph (ARG), you can run queries across subscriptions at a large scale, quickly and easily.
 
-### Exploring the Inventory capability
+1. Type **Microsoft Defender for Cloud** in the search box located on the top of the **Azure Portal** page and click to open it. From the left navigation pane, under the **General** section, select the **Inventory** button.
 
-Asset inventory dashboard allows you to get a single pane of glass view to all your resources covered by Microsoft Defender for Cloud. It also provides per-resource visibility to all Microsoft Defender for Cloud’s information and additional resource details including security posture and protection status. Since this dashboard is based on Azure Resource Graph (ARG), you can run queries across subscriptions at scale quickly and easily.
+    ![](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/images/inventory1.png?raw=true)
+    
+2. Hover to the **Summaries strip** at the top of the page.
 
-1.	From Microsoft Defender for Cloud’s sidebar or from the Overview tile, select **Inventory**
-2.	Hover to the top of the page.
-3.	Notice the total number of resources: **15**
+    ![Remediate a resource](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/images/inventory1.1.png?raw=true)
 
-> ⭐ Notice: <br>
-> The total number of resources are the ones which are connected to Microsoft Defender for Cloud and NOT the total number of resources that you have in your subscriptions/s.
+    > **Note**: In your environment, these numbers may not be the same, since it varies in time
 
-4.	Notice the number of **unhealthy resources: 11** (resources with active recommendations based on the selected filter)
-5.	Notice the **unmonitored resources: 0** (indicates if there are resources with Log Analytics agent deployed but with health issues). Since we enabled the auto-provisioning in the previous module, all existing VMs are covered and connected = monitored.
-6.	Use the **Filter by name** box to search for **linux**. You should now see a filtered view of the disks in your environments.  Clear the filter.
-7.	Open the resource health pane by selecting the resource. Click on **asclab-linux**. 
-8.	On the resource health pane for **asclab-linux**, review the virtual machine information alongside with a recommendation list.
-![Remediate a resource](../Images/Lab2rh.jpg?raw=true)
-9.	Navigate back to the **Inventory page**. From the filter menu, select the **Resource Group** filter and then **asclab-aks**. Using this filter, you can see all resources related to the predefined Kubernetes resources which are monitored with no active recommendations. Clear the filter by selecting **Resource Group** and then **Select all**.
+3. Notice the total number of resources, The total number of resources are the ones that are connected to the Microsoft Defender for Cloud and NOT the total number of resources that you have in your subscriptions.
 
-> Notice! The entire grid can be filtered and sorted
+4. Notice the number of **unhealthy resources**, The unhealthy resources are the resources with actionable recommendations based on the selected filter.
 
-10.	From the filter menu, select **Recommendations**, uncheck **select all** option and then select the **Auditing on SQL Server should be enabled**. You can also use the search area within the filter to better find across the list. Clear your filter.
-11.	Tag is very common asset management in Azure to do asset management. Using this view, you can assign tags to the filtered resources:
+5. Notice the **unmonitored resources**, The unmonitored resources indicate if there are resources with Log Analytics agent deployed but with health issues. Since we enabled the auto-provisioning in the previous module, all existing VMs are covered and connected, which means they are monitored.
 
-* Filter the **Resource type** column to include only **App Services**.
-* **Select** the two app service named as *asclab-fa-xx* and *asclab-app-xx*
-* From the top menu, click **Assign tags**
-* Assign `Environment` as the name and  `Production` as the value.
-* Click **Save**.
+6. Use the **Filter by name** box to search for **linux** **(1)**. You should now see a filtered view containing your desired resource: **asclab-linux**. Hover on the red bar in the **recommendations** column to see a tooltip with the **active recommendations (2)**.. You should expect to see **Active-xx of xx Recommendations** – these are the active recommendations you must attend.
 
-![Inventory: Assign tags](../Images/asc-inventory-assign-tags.gif?raw=true)
+    ![linux-recommendations](../images/ex3.step7.png)
 
-12. Click on **Add filter**.Notice the **Security findings** filter – it allows you to find all resources that are vulnerable by a specific vulnerability. You can also search for CVE, KB ID, name and missing update.
-13. From the **Resource Group** filter, select **asclab**. From the top menu bar, click on **Download CSV report**. You will get a snapshot to work on it offline already filtered. You can also right click on any of the resource and upgrade to Workload Protections plan (when applicable).
-14.	From the top menu, click on **open query**. This will open up the resource graph explorer blade, click on **Run Query**. You should now have the same list of resources and columns like in the previous step. This query can be editable for your needs and here it gets very powerful.
-15. Save the query for later use by clicking on **Save as** from the top menu. You can use it to create periodic reports. Name the report as *asc-filtered-query* and select **Save**.
+7. Open the resource health pane by selecting the resource. Click on **asclab-linux**. Alternately. you can also right-click on any resource and select **view resource**. You may not see **view resource** directly due to different screen resolution, then you have to click on ellipse(...) and then select **view resource**.
 
-> ⭐ Good to know: <br>
-> Inventory dashboard is fully built on top of Azure Resource Graph (ARG) which stores all of ASC security posture data and leveraging its powerful KQL engine.
-> It enables you to reach deep insights quickly and easily on top of ASC data and cross reference with any other resource properties.
+    ![Remediate a resource](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/images/viewres.png?raw=true)
+
+8. On the resource health pane for **asclab-linux**, review the virtual machine information alongside the recommendation list.
+
+    ![Remediate a resource](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/images/healthpreview.png?raw=true)
+
+    > **Note**: It could take up-to 24 hours for all the recommendations to show up. And it is possible that during the lab time this may not show up – which is the case sometimes. If you don't see the data in **recommendations**. You can continue to the next exercise and verify this later.
+
+9. Navigate back to the Inventory page and clear the search keyword **linux**. Then from the filter menu, select the **Resource Groups (1)** filter and then provide the **value (2)** **asclab-aks** (Unselect remaining), and click on **Ok (3)**. Using this filter, you can see all resources related to the predefined Kubernetes resources which are monitored with active recommendations.
+
+     ![Remediate a resource](../images/filter-rg.png)
+
+    > **Note:** The list can be filtered and sorted.
+
+10. From the filter menu, select the **Resource Group** filter and **select all** under the Value. Again from the filter menu, select **Recommendations**, uncheck the **select all** option under the Value and then select the **Auditing on SQL Server should be enabled** and click on **Ok**. You can also use the search area within the filter to better find across the list. When you are done exploring remember to clear your filter.
+
+    > **Note**: If you don't see **Auditing on SQL Server should be enabled** in search results that means it is not loaded yet to recommendations and it could take up-to 24 hours for all the recommendations to show up. It is possible that during the lab time this may not show up – which is the case sometimes. If you don't see the data in **Recommendations**, you can note down this step number then continue to the next exercise and verify this later.
+
+11. Tags are a very common asset management feature within Azure. With the help of this feature, resources can be tagged using a Tag name and value. These assigned tags can organize your assets and categorize them with the help of filters. Let us now assign the following Tags:
+
+  * Filter the **Resource type** column to include only **App Services or web services**: Select the **Resource type** filter and select **app services** under the Value and Click on **OK**
+  * **Select** the checkboxes of the two app services named *asclab-fa-xx* and *asclab-app-xx*. (Here **xx** is the unique id of resource).
+  * From the top menu, click **Assign tags**
+  * Assign `Environment` as the name and  `Production` as the value.
+  * Click **Save**.
+
+   > **Note**: If you don't see App Services in Resource type filter that means it is not loaded yet to recommendations, Note down this step number and verify this later.
+
+   ![Inventory: Assign tags](../images/assigntagsv1.gif?raw=true)
+   
+12. From the filter pane, remove the **Resource type** filter then go to **Add filter** and notice the **Security findings** filter – it allows you to find all resources that are prone to a specific vulnerability. You can also search for CVE, KB ID, name and missing update.
+
+13. From the filter pane, remove the **Security findings** filter if you added in the previous step then from the top menu, click on **Open query**.
+
+    ![Inventory: Assign tags](../images/inventory-open-query-new.1.png)
+
+16. On the **Azure Resource Graph Explorer** blade, click on **Run Query**. You should now have the same list of resources and columns as in the previous step. This query is editable for your needs and here it gets very powerful.
+ 
+    ![Inventory: Assign tags](../images/run-query.1.png)
+
+17. Save the query for later use by clicking on **Save as** from the top menu. You can use it to create periodic reports. Name the report as *asc-filtered-query* and select **save**.
+
+   ![Inventory: Assign tags](../images/M2-EX3-17.png)
+
 
 
 # Understanding pricing
@@ -173,6 +199,6 @@ The pricing criteria depends on the plan you enable. Navigate to ***Pricing Page
 In addition, as a part of Foundational CSPM (free) you get several items like Secure Score, Asset Inventory, Security Recommendations etc. free of charge. Let's review the ***Foundational CSPM vs. Defender CSPM capabilities*** (https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management)
 
 In addition you can leverage ***Cost Estimation*** workbook to plan for spend
-![MDC pricing](../Images/mdfc-pricing.png?raw=true)
+![MDC pricing](../images/mdfc-pricing.png?raw=true)
 
 ### Continue with the next module: [Module 2 - Proactively protecting cloud attack suraface with Microsoft Defender for Cloud](../Modules/Module2:UnderstandingYourCloudAttackSurface.md)

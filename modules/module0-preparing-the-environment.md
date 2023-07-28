@@ -1,8 +1,7 @@
 # Module 0 – Preparing the Environment
 
-## Task 1 : Enabling Microsoft Defender for Cloud(Read-Only)
 
-#### Subscription upgrade and agents installation
+## Task 1 : Enabling Microsoft Defender for Cloud(Read-Only)
 
 1. Open **Azure Portal** and search for **Microsoft Defender for Cloud (1)** and then click on it from the search results **(2)**.
 

@@ -18,7 +18,5 @@ In this workshop, learn MDC's core capabilities and dive into these use cases:
 * Level: Intermediate
 * Audience: Security Analysts, Architects, and Engineers
 * Duration: 4 hours
-* Prerequisites: Azure Tenant and foundational knowledge of Azure Services
 ---
 
-### Continue with the next module: [Module 0 - Preparing the Environment](Modules/Module0:Preparingtheenvironment.md)

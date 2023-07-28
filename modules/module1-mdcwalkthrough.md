@@ -120,17 +120,17 @@ Previously, we briefly explored the Secure Score tile on the overview page. Now 
     > **Info**: In the recommendation list, you can now see some recommendations flagged as in preview. They aren’t included in the calculation of your score. They should be still remediated so that when the preview period ends, they will contribute towards your final score.
 
 
-## Task 3: Exploring the Inventory capability
+## Task 4: Exploring the Inventory capability
 
 Asset inventory dashboard allows you to get a single pane of glass view to all your resources covered by Microsoft Defender for Cloud. It also provides per-resource visibility to all Microsoft Defender for Cloud’s information and additional resource details including security posture and protection status. Since this dashboard is based on Azure Resource Graph (ARG), you can run queries across subscriptions at a large scale, quickly and easily.
 
 1. Type **Microsoft Defender for Cloud** in the search box located on the top of the **Azure Portal** page and click to open it. From the left navigation pane, under the **General** section, select the **Inventory** button.
 
-    ![](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/images/inventory1.png?raw=true)
+     ![](../images/inventory1.png)
     
 2. Hover to the **Summaries strip** at the top of the page.
 
-    ![Remediate a resource](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/images/inventory1.1.png?raw=true)
+     ![](../images/inventory1.1.png)
 
     > **Note**: In your environment, these numbers may not be the same, since it varies in time
 
@@ -146,11 +146,11 @@ Asset inventory dashboard allows you to get a single pane of glass view to all y
 
 7. Open the resource health pane by selecting the resource. Click on **asclab-linux**. Alternately. you can also right-click on any resource and select **view resource**. You may not see **view resource** directly due to different screen resolution, then you have to click on ellipse(...) and then select **view resource**.
 
-    ![Remediate a resource](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/images/viewres.png?raw=true)
+    ![Remediate a resource](../images/viewres.png)
 
 8. On the resource health pane for **asclab-linux**, review the virtual machine information alongside the recommendation list.
 
-    ![Remediate a resource](https://github.com/Divyasri199/AIW-Security-Immersion/blob/main/Labs/images/healthpreview.png?raw=true)
+    ![Remediate a resource](../images/healthpreview.png)
 
     > **Note**: It could take up-to 24 hours for all the recommendations to show up. And it is possible that during the lab time this may not show up – which is the case sometimes. If you don't see the data in **recommendations**. You can continue to the next exercise and verify this later.
 
@@ -188,17 +188,16 @@ Asset inventory dashboard allows you to get a single pane of glass view to all y
 
 17. Save the query for later use by clicking on **Save as** from the top menu. You can use it to create periodic reports. Name the report as *asc-filtered-query* and select **save**.
 
-   ![Inventory: Assign tags](../images/M2-EX3-17.png)
+    ![Inventory: Assign tags](../images/M2-EX3-17.png)
 
 
 
-# Understanding pricing
+## Task 5: Understanding pricing
 
-The pricing criteria depends on the plan you enable. Navigate to ***Pricing Page*** (https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/?v=17.23h)
+The pricing criteria depends on the plan you enable. Navigate to [Pricing Page](https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/?v=17.23h)
 
-In addition, as a part of Foundational CSPM (free) you get several items like Secure Score, Asset Inventory, Security Recommendations etc. free of charge. Let's review the ***Foundational CSPM vs. Defender CSPM capabilities*** (https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management)
+In addition, as a part of Foundational CSPM (free) you get several items like Secure Score, Asset Inventory, Security Recommendations etc. free of charge. Let's review the [Foundational CSPM vs. Defender CSPM capabilities](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management)
 
 In addition you can leverage ***Cost Estimation*** workbook to plan for spend
-![MDC pricing](../images/mdfc-pricing.png?raw=true)
 
-### Continue with the next module: [Module 2 - Proactively protecting cloud attack suraface with Microsoft Defender for Cloud](../Modules/Module2:UnderstandingYourCloudAttackSurface.md)
+![MDC pricing](../images/mdfc-pricing.png?raw=true)

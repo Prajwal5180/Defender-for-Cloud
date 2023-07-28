@@ -174,15 +174,15 @@ Asset inventory dashboard allows you to get a single pane of glass view of all y
 
 11. Tags are a very common asset management feature within Azure. With the help of this feature, resources can be tagged using a Tag name and value. These assigned tags can organize your assets and categorize them with the help of filters. Let us now assign the following Tags:
 
-  * Filter the **Resource type** column to include only **App Services or web services**: Select the **Resource type** filter and select **app services** under the Value and Click on **OK**
-  * **Select** the checkboxes of the two app services named *asclab-fa-xx* and *asclab-app-xx*. (Here **xx** is the unique id of the resource).
-  * From the top menu, click **Assign tags**
-  * Assign `Environment` as the name and  `Production` as the value.
-  * Click **Save**.
+	* Filter the **Resource type** column to include only **App Services or web services**: Select the **Resource type** filter and select **app services** under the Value and Click on **OK**
+	* **Select** the checkboxes of the two app services named *asclab-fa-xx* and *asclab-app-xx*. (Here **xx** is the unique id of the resource).
+	* From the top menu, click **Assign tags**
+	* Assign `Environment` as the name and  `Production` as the value.
+	* Click **Save**.
 
-   > **Note**: If you don't see App Services in the Resource type filter that means it is not loaded yet to recommendations, Note down this step number and verify this later.
+	> **Note**: If you don't see App Services in the Resource type filter that means it is not loaded yet to recommendations, Note down this step number and verify this later.
 
-   ![Inventory: Assign tags](../images/assigntagsv1.gif?raw=true)
+	![Inventory: Assign tags](../images/assigntagsv1.gif?raw=true)
    
 12. From the filter pane, remove the **Resource type** filter then go to **Add filter** and notice the **Security findings** filter – it allows you to find all resources that are prone to a specific vulnerability. You can also search for CVE, KB ID, name, and missing update.
 

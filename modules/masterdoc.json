@@ -13,21 +13,26 @@
     },
     
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module1-mdcwalkthrough.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module0-preparing-the-environment.md",
       "Order": 3
+    },
+    
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module1-mdcwalkthrough.md",
+      "Order": 4
     },
    
     {
       "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module2-understanding-your-cloudattack-surface.md",
-      "Order": 4
-    },
-    {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module3-dashboards.md",
       "Order": 5
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module4-data-security-posture-management.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module3-dashboards.md",
       "Order": 6
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module4-data-security-posture-management.md",
+      "Order": 7
     }
     
   ]

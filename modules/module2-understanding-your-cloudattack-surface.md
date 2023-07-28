@@ -20,7 +20,7 @@ Defender for Cloud uses the graph to perform an attack path analysis (Attack Pat
 
    ![Attack Paths](../images/M0-T1-S1.1.png)
 
-2. From **Defender for Cloud** menu, click on the **Recommendations (1)** blade to see different Attack Paths that Defender has identified. Attack Path looks for points of entries and lateral movement not only in Azure but also in AWS and GCP. Click on the **Attack path (2)**
+2. From **Defender for Cloud** menu, click on the **Recommendations (1)** blade to see different Attack Paths that Defender has identified. Attack Path looks for points of entries and lateral movement not only in Azure but also in AWS and GCP. Click on the **Attack path (2)**.
 
    ![Attack Paths](../images/mdfc-attackpath.png?raw=true)
 

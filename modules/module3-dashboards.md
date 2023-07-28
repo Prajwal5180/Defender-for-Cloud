@@ -6,7 +6,7 @@ Other than the overall dashboard we discussed in Module 1, MDC provides several 
 
 ![Workbooks](../images/mdfc-workbooks-1.png)
 
-## Task 1: Ransomware Dashboard
+### Task 1: Ransomware Dashboard
 
 1. From the available workbooks select ***Ransomware Dashboard*** under **Community**. The page shows the state of your current environment against various MITRE Tactics used by ransomwares.
 
@@ -35,7 +35,7 @@ Other than the overall dashboard we discussed in Module 1, MDC provides several 
 7. Close the Workbook by clicking the **X** at the top right corner of screen.
 
 
-## Task 2: Identifying the coverage of your attack surface
+### Task 2: Identifying the coverage of your attack surface
 
 1. Select the ***Coverage*** workbook under **Community**.
 
@@ -52,7 +52,7 @@ Other than the overall dashboard we discussed in Module 1, MDC provides several 
     ![Coverage](../images/M3-T2-S4.png)
 
 
-## Task 3: Deploying community workbooks
+### Task 3: Deploying community workbooks
 
 In addition to the workbooks available in the Azure Portal, you can also deploy several from the [MDC github](https://github.com/Azure/Microsoft-Defender-for-Cloud/tree/main/Workbooks)
 

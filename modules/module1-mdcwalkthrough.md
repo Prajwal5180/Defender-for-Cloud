@@ -56,82 +56,71 @@
 
     ![Overview: Secure Score tile](../images/M1-T1-S11.png)   
 
-### Exploring Secure Score and Recommendations
+
+## Task 2: Exploring Secure Score and Recommendations 
 
 **Exploring Secure Score**
 
-Previously, we briefly explored the Secure Score tile on the overview page. Now let’s dive into this capability and the associated recommendations. Microsoft Defender for Cloud continually assesses your resources. All findings are aggregated into a single score (Secure Score) which measures your current security posture of your subscription/s; the higher the score, the lower the identified risk level.
-Exploring secure score
+Previously, we briefly explored the Secure Score tile on the overview page. Now let’s dive into this capability and the associated recommendations. Microsoft Defender for Cloud continually assesses your resources. All findings are aggregated into a single score (Secure Score) which measures your current security posture of your subscription; the higher the score, the lower the identified risk level.
 
-1.	Go to the **Microsoft Defender for Cloud Overview blade**.
-2.	From the left navigation pane, under the **Cloud Security** section, press on the **Secure posture** button.
-3.	On the Secure Score page, **review your current overall secure score percentrage**.
 
-> ⭐ Notice: <br>
-> Your score is shown as a percentage value, but you can also see the number of points which the score is being calculated based on. See the following example: <br>
-> ![Overall Secure Score](../Images/module2_securescore_percentage_yl.png?raw=true)<br>
-> For more information on how the score is calculated, [refer to the secure score documentation page](https://docs.microsoft.com/en-us/azure/security-center/secure-score-security-controls#how-your-secure-score-is-calculated).
+1. In the **Microsoft Defender for Cloud Overview blade**. From the left navigation pane, under the **Cloud Security** section, press on the **Secure posture** button.
 
-4.	On the left side of the page, you can notice the **subscriptions with the lowest scores** – this section helps in prioritizing working on subscriptions. Since this demo is based on a single subscription, you will see only one.
+    ![Overview: Secure Score tile](../images/M1-T2-S1.png) 
 
-5.	On the bottom part, you can see a list of subscriptions and their current score. To view the recommendations behind the score, click on **view recommendations**.
+2. On the Secure Score page, **review your current overall secure score percentrage**.
 
-**Exploring Security Controls and Recommendations**
+	> **Note**: Your score is shown as a percentage value, but you can also see the number of points which the score is being calculated based on. 
 
-1.	On the recommendations page, pay attention to the first part of the page; the **summary view** which includes the current score, progress on the recommendations (both completed security controls and recommendations) and resource health (by severity).
-2.	On the top menu, click on **Download CSV report** button – this allow you to get a snapshot of your resources, their health status and the associated recommendations. You can use it for pivoting and reporting.
-3.	Notice the second part of the page; here you have a **list of all recommendations grouped by security controls**:
+    ![Overall Secure Score](../images/M1-T2-S2.png)
 
-> ⭐ Notice: <br>
-> -	Each security control is a logical group of related security recommendations and represents a security risk you should mitigate.
-> -	Each control has its own score which contributes to the overall secure score.
-> -	Address the recommendations in each control, focusing on the controls worth the most points.
-> -	To get the max score, fix all recommendations for all resources in a control.
-> To understand how the score and the downstream recommendations are calculated, please visit our official [documentation](https://docs.microsoft.com/en-us/azure/security-center/secure-score-security-controls#calculations---understanding-your-score "Understanding your score calculation").
 
-4.	Look for the **Encrypt data in transit** security control. Notice its max score 4 and the potential increase for the score. You should have three recommendations that have that **Quick Fix** symbple (lightning bolt).
-5.	Click on the **Secure transfer to storage accounts should be enabled** recommendation. As you can see, this recommendation has the **Quick Fix** available.
+   > For more information on how the score is calculated, [refer to the secure score documentation page](https://docs.microsoft.com/en-us/azure/security-center/secure-score-security-controls#how-your-secure-score-is-calculated).
 
-> ⭐ Notice: <br>
-> Quick Fix allows you to remediate a group of resources quickly when possible with a single click. This option is only available for supported recommendations and enables you to quickly improve your secure score and increase the security in your environment.
 
-6.	On the top section, notice the following:
+5. On the bottom part, you can see a list of subscriptions and their current score. To view the recommendations behind the score, click on **view recommendations**.
 
-*	**Deny** (the options are Enforce and Deny buttons on supported recommendations)
-*	**Exempt** (which allows you to exempt resources/subscriptions/management groups from being applicable to this recommendation)
-*	**View Policy Definition** (which opens the Azure Policy definition for this recommendation)
-*	**Open Query** (in Azure Resource Graph)
 
-* Severity indicator: **High**
-* Refreshens interval on supported recommendations: **30 Min**
+## Task 3: Exploring Security Controls and Recommendations 
 
-![Recommendation top menu](../Images/asc-storage-top-menu.jpg?raw=true)
+1. On the **Recommendations (1)** page, pay attention to the first part of the page; the **summary view (2)** which includes the current score, progress on the recommendations (both completed security controls and recommendations) and resource health (by severity).
 
-7. 
-8. The next important part is the **Remediation Steps** which contains the remediation logic. Expand **Remediation steps** to see more information.  As you can see, you can remediate the select resource/s either by following the step-by-step instructions, use the provided ARM template or REST API to automate the process by yourself or use the Quick Fix button which triggers the ARM call for you.
+    ![Overall Secure Score](../images/M1-T2-S3.png)
 
-* Click on the **Quick Fix Logic**
-* Notice the automatic remediation script content (ARM Template):
+2. On the top menu, click on **Download CSV report** button – this allow you to get a snapshot of your resources, their health status and the associated recommendations. You can use it for pivoting and reporting.
 
-```json
-{
-  "properties": {
-    "supportsHttpsTrafficOnly": true
-  }
-}
-```
+     ![Overall Secure Score](../images/M1-T3-S3.png)
 
-8.	On the bottom part, click on the unhealthy resources tab and **select a resource** and then **click Fix**.
+3. Under **Recommendation**, Click on **Manage access and permissions** and select **Storage account public access should be disallowed** from the drop down list.
 
-9. On the right pane, review the implications for this remediation and press **Fix 1 resource**.
+     ![](../images/dirsto1.png)
 
-![Remediate a resource](../Images/asc-storage-remediate-resource.gif?raw=true)
+4. On the top section, notice the following:
 
-10. Wait for a notification: ✅ **Fix successful** - Successfully remediated the issues on the selected 
-resources. Note: It can take several minutes after remediation completes to see the resources in the 'healthy resources' tab.
+   - Title of the recommendation: **Storage account public access should be disallowed**
+   - Top menu controls: **Exempt**, **Deny**, **View policy definition** and **Open query**
+   - Severity indicator: **Medium**
+   - Freshness interval: **30 Min** 
+   - Tactics and techniques: **Initial Access**
 
-11.	Return to recommendations list. Expend the "Manage access and permissions" security control, you can now see **Preview recommendations** which have the flag symbol to the right, under **Insights**. Those with **Preview recommendations** aren’t included in the calculation of your score. They should be still remediated, so that when the preview period ends, they will contribute towards your score.
-![Remediate a resource](../Images/module2_recommendations_previewrecommendations_yl.png?raw=true)
+    ![Recommendation top menu](../images/dirsto1.png)
+
+5. The next important part is the **Remediation Steps** which contains the remediation logic where you can remediate the selected resource/s.
+
+6. Under **Affected resources**, **select a resource** (the single **storage account** on the Unhealthy resources) and click on **Fix**. This will automatically apply the remediation on the selected resource.
+
+     ![](../images/dirsto1.png)
+  
+11. This will open a new window - **Fixing resources**, review the implications for this remediation and click on **Fix 1 resource**.
+
+     ![](../images/dirsto1.png)
+  
+12. Wait for a notification: ✅ **Remediation successful** - Successfully remediated the issues on the selected resources. 
+    
+    > **Note**: It can take several minutes after remediation completes to see the resources in the 'healthy resources' tab. You can move to next task and come back later to check on this.
+
+    > **Info**: In the recommendation list, you can now see some recommendations flagged as in preview. They aren’t included in the calculation of your score. They should be still remediated so that when the preview period ends, they will contribute towards your final score.
+
 
 
 

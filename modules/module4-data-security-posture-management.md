@@ -1,6 +1,6 @@
 # Module 4 - Data Security Posture Management (DSPM)
 
-## Task 1: Enabling Defender CSPM plan (Read Only)
+### Task 1: Enabling Defender CSPM plan (Read Only)
 
 In this exercise, you will learn how to enable Defender for CSPM, and leverage Defender for CSPM Capabilities
 
@@ -28,7 +28,7 @@ In this exercise, you will learn how to enable Defender for CSPM, and leverage D
 
       ![](../images/m1-img5.png)
 
-## Task 2: Assign Governance Rule
+### Task 2: Assign Governance Rule
 
 1. From **Defender for Cloud** menu, click on **Environment Settings (1)** page and select your subscription **(2)**.
 

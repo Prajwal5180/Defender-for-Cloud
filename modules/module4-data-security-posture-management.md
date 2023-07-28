@@ -59,5 +59,9 @@ In this exercise, you will learn how to enable Defender for CSPM, and leverage D
 
     ![](../images/a1.6.png)
 
-7. Click on **Governance report** to view the status of tasks **Complete, Ontime and Unassign**
+7. Click on **Governance report** to view the status of tasks **Complete, Ontime and Unassign**.
+
+    ![](images/m1-img23.png)
+    
+    ![](images/m1-img24.png)
 

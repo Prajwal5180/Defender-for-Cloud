@@ -1,47 +1,61 @@
 # Module 1 - Exploring Microsoft Defender for Cloud
 
 
-### Understanding Microsoft Defender for Cloud dashboard
+## Task 1: Understanding Microsoft Defender for Cloud dashboard 
 
-1.	Navigate to the **Microsoft Defender for Cloud** (https://portal.azure.com/#view/Microsoft_Azure_Security/SecurityMenuBlade/~/0) using the credentials you created in the previous module.
-2.	On the **Overview** blade notes that it now provides a unified view into the security posture and includes multiple independent cloud security pillars such as **Security posture, Regulatory compliance, Workload protections, Firewall Manager, Inventory, and Information protection (preview)**. Each of these pillars also has its own dedicated dashboard allowing deeper insights and actions around that vertical, providing easy access and better visibility for security professionals.
+1. Open **Azure Portal** and search for **Microsoft Defender for Cloud (1)** and then click on it from the search results **(2)**.
 
-> ❗ Important: <br>
-> It takes few hours for all tiles on the overview page to update.
+    ![Microsoft Defender for Cloud](../images/M0-T1-S1.2.png)   
 
-![Microsoft Defender for Cloud Snapshot](../Images/Module2_dashboard_overview_yl.png?raw=true)
+2.	On the **Overview (1)** blade notes that it now provides a unified view into the security posture and includes multiple independent cloud security pillars such as **Security posture, Regulatory compliance, Workload protections, Firewall Manager, Inventory, and Information protection (preview) (2)**. Each of these pillars also has its own dedicated dashboard allowing deeper insights and actions around that vertical, providing easy access and better visibility for security professionals.
+
+> **Info**: Microsoft Defender for Cloud takes time to populate information such as secure score, compliance, recommendations etc. after enabling the services and enrolling the servers to Microsoft Defender for Cloud.
+ 
+   ![Microsoft Defender for Cloud Snapshot](../images/M1-T1-S1.png)  
 
 
-3.	Note the **top menu** bar which allows to view and filter subscriptions by selecting the **subscriptions button**.
-In this lab we will use only one but selecting different/additional subscriptions will adjust the interface to reflect the security posture for the selected subscriptions.
+3. Note that  the **top menu** bar allows to view and filter subscriptions by selecting the **subscriptions button**. In this lab we will use only one but selecting different/additional subscriptions will adjust the interface to reflect the security posture for the selected subscriptions.
+
+   ![Microsoft Defender for Cloud Snapshot](../images/M1-T1-S2.png)  
 
 4.	Click on the **What’s new** button – a new tab opens with the latest release notes where you can stay current on the new features, bug fixes and more.
 
-5.	Note the **high-level numbers** at the top menu; This view allows you to see a summary of your subscriptions, active recommendations, security alerts alongside with connected cloud accounts (AWS account and GCP projects – will be discussed in the next modules).
+    ![Microsoft Defender for Cloud Snapshot](../images/M1-T1-S4.png)  
+	
 
-![Microsoft Defender for Cloud: Top menu](../Images/asc-dashboard-top-menu.gif?raw=true)
+5.	Note the **high-level numbers** at the top menu; This view allows you to see a summary of your subscriptions, active recommendations, security alerts alongside with connected cloud accounts.
 
-6.	From the top menu bar, **click** on **Azure subscriptions**. This will bring you into the environment settings. Then select **Azure Subscription 1**. 
+   ![Microsoft Defender for Cloud: Top menu](../images/M1-T1-S5.png) 
 
-![Microsoft Defender for Cloud: Coverage](../Images/mdfc-envsettingsub.png?raw=true)
+6.	From the top menu bar, **click** on **Azure subscriptions**. 
+
+   ![Microsoft Defender for Cloud: Coverage](../images/M1-T1-S6.png)
+
+  - This will bring you into the environment settings. Then select the available subscription. 
+
+   ![Microsoft Defender for Cloud: Coverage](../images/M1-T1-S6.1.png)
+
 
 7.	On the **Defender plans** page, note that your subscription is fully covered – means that your subscription is covered by Microsoft Defender for Cloud. 	
-![Microsoft Defender for Cloud: Coverage](../Images/mdfc-defplans.png?raw=true)
 
-> ⭐ Good to know: <br>
-> This page shows a list of subscriptions and their coverage type. You can use this page to find subscriptions that are not covered by Microsoft Defender for Cloud and help you identify “shadow IT” subscriptions.
+   ![Microsoft Defender for Cloud: Coverage](../images/M1-T1-S7.png)
+
+  > **Info**: This page shows a list of subscriptions and their coverage type. You can use this page to find subscriptions that are not covered by Microsoft Defender for Cloud and help you identify “shadow IT” subscriptions.
 
 8.	Go back to the **Overview** page, and look at the **Secure Posture** tile, you can see your current score along with the number of completed controls and recommendations. Clicking on this tile will redirect you to drill down view across subscriptions.
 
-![Overview: Secure Score tile](../Images/module2_securityposture_securescore_yl.png?raw=true)
+   ![Overview: Secure Score tile](../images/M1-T1-S8.png)
 
-> ⭐ Good to know: <br>
-> The higher the score, the lower the identified risk level.
+> **Info**: The higher the score, the lower the identified risk level.
 
 9.	On the **Regulatory Compliance** tile, you can get insights into your compliance posture based on continuous assessment of your both Azure and hybrid cloud environments. This tile shows only 4 standards which are SOC TSP, ISO 27001, PCI DSS 3.2.1 and Azure CIS 1.1.0. Clicking on this tile will redirects you to **Regulatory Compliance** dashboard – where you can add additional standards and explore the current ones.
+
+
 10.	On the **Workload Protections** tile, you can see the coverage of your connected resources (for the currently selected subscriptions) and the recent alerts, color-coded by severity. Your current resource coverage should be **100% which means full protection**. Clicking on this tile will redirects you Microsoft Defender for Cloud dashboard.
-11. On the **Inventory** tile, you are provided with a view of your security posture across all your inventory, including Defender coverage per resource and whether the monitoring agent is installed (which brinhs security protection to those resources).
-![Overview: Secure Score tile](../Images/mdfc-inventory.png?raw=true)   
+
+11. On the **Inventory** tile, you are provided with a view of your security posture across all your inventory, including Defender coverage per resource and whether the monitoring agent is installed.
+
+   ![Overview: Secure Score tile](../images/M1-T1-S11.png)   
 
 ### Exploring Secure Score and Recommendations
 

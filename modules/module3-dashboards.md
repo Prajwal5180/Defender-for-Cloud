@@ -68,7 +68,7 @@ In addition to the workbooks available in the Azure Portal, you can also deploy 
 
    ![Community Workbook](../images/M3-T3-S3.png)
 
-4. Choose the **subscription (1)** and **Resource Group (2)** from the dropdown and leave other settings unchanged. Press **Review + create (3)** button at bottom left corner. On subsequent screen press **Create**.
+4. Choose the **subscription (1)** and select **asclab-WAF (2)** for **Resource Group** from the dropdown and leave other settings unchanged. Press **Review + create (3)** button at bottom left corner. On subsequent screen press **Create**.
 
    ![Community Workbook](../images/M3-T3-S4.png)
 

@@ -206,9 +206,10 @@ The pricing criteria depends on the plan you enable. In addition, as a part of F
 
 Refer the following to learn more about Defender for cloud pricing:
 
-- [Pricing Page](https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/?v=17.23h)
+ - [Pricing Page](https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/?v=17.23h)
 
-- [Foundational CSPM vs. Defender CSPM capabilities](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management)
+ - [Foundational CSPM vs. Defender CSPM capabilities](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management)
+
 
 1. From **Microsoft Defender for Cloud**, click on **Workbook (1)** select **Public Template (2)** tab and click on **Cost Estimation (3)** 
 

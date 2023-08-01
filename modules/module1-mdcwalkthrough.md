@@ -202,10 +202,18 @@ Asset inventory dashboard allows you to get a single pane of glass view of all y
 
 ### Task 5: Understanding pricing
 
-The pricing criteria depends on the plan you enable. Navigate to [Pricing Page](https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/?v=17.23h)
+The pricing criteria depends on the plan you enable. In addition, as a part of Foundational CSPM (free), you get several items like Secure Score, Asset Inventory, Security Recommendations, etc.
 
-In addition, as a part of Foundational CSPM (free), you get several items like Secure Score, Asset Inventory, Security Recommendations, etc. free of charge. Let's review the [Foundational CSPM vs. Defender CSPM capabilities](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management)
+Refer the following to learn more about Defender for cloud pricing:
 
-In addition, you can leverage the **Cost Estimation** workbook to plan for spend.
+- [Pricing Page](https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/?v=17.23h)
 
-![MDC pricing](../images/mdfc-pricing.png?raw=true)
+- [Foundational CSPM vs. Defender CSPM capabilities](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management)
+
+1. From **Microsoft Defender for Cloud**, click on **Workbook (1)** select **Public Template (2)** tab and click on **Cost Estimation (3)** 
+
+    ![MDC pricing](../images/costdefnder.png)
+
+2. In the **Cost Estimation** workbook, you can observe the estimated pricing for the resources.
+
+    ![MDC pricing](../images/costworkbook.png)

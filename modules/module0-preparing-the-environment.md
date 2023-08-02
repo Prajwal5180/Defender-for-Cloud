@@ -7,7 +7,7 @@
 
    ![Microsoft Defender for Cloud](../images/M0-T1-S1.2.png)   
 
-2. Click on **Getting started (1)** page from the left pane, On the **Upgrade (2)** Tab, select both **Azure subscription (3)**, and also the **Workspace name** underneath it. Click on **Upgrade (4)**.
+2. Click on **Getting started (1)** page from the left pane, On the **Upgrade (2)** tab, select both **Azure subscription (3)**, and also the **Workspace name** underneath it. Click on **Upgrade (4)**.
 
     >**Note:** You may need to wait for a few minutes for the upgrade to complete.
 

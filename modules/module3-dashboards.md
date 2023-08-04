@@ -47,9 +47,9 @@ Other than the overall dashboard we discussed in Module 1, MDC provides several 
 
    ![Coverage](../images/M3-T2-S3.png)
 
-5. Now you can change the plan settings.
+4. Now you can change the plan settings.
 
-    ![Coverage](../images/M3-T2-S4.png)
+    ![Coverage](../images/defender1.png)
 
 
 ### Task 3: Deploying community workbooks

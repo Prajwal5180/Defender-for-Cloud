@@ -36,7 +36,7 @@
 
 7. On the **Defender plans** page, note that your subscription is fully covered – which means that your subscription is covered by Microsoft Defender for Cloud. 	
 
-    ![Microsoft Defender for Cloud: Coverage](../images/M1-T1-S7.png)
+    ![Microsoft Defender for Cloud: Coverage](../images/defender1.png)
 
     > **Info**: This page shows a list of subscriptions and their coverage type. You can use this page to find subscriptions that are not covered by Microsoft Defender for Cloud and help you identify “shadow IT” subscriptions.
 

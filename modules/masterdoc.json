@@ -31,8 +31,12 @@
       "Order": 6
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module4-data-security-posture-management.md",
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module4-governance-rule.md",
       "Order": 7
+    },
+    {
+      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module5-data-security-posture-management.md",
+      "Order": 8
     }
     
   ]

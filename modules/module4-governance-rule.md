@@ -1,5 +1,6 @@
 # Module 4 - Governance Rule
 
+Governance rules can identify resources that require remediation according to specific recommendations or severities. The rule assigns an owner and due date to ensure the recommendations are handled. Many governance rules can apply to the same recommendations, so the rule with lower priority value is the one that assigns the owner and due date.
 
 ### Task 1: Assign Governance Rule
 

@@ -1,5 +1,7 @@
 # Module 5 Data Security Posture Management (DSPM)
 
+Defender CSPM extends existing free posture management capabilities to help security teams gain full visibility across their multicloud and hybrid environments, get integrated, contextual risk insights across their infrastructure, quickly identify their most critical risk with attack path analysis, and proactively remediate vulnerabilities and misconfigurations. And today, new integrated data-aware security posture capabilities empower teams to prevent data breaches with full visibility into the multicloud data estate and pressing risks to sensitive data.
+
 ### Task 1: Enabling Defender CSPM plan (Read Only)
 
 In this exercise, you will learn how to enable Defender for CSPM, and leverage Defender for CSPM Capabilities

@@ -17,6 +17,8 @@
 
    ![Install Agents](../images/M0-T1-S3.png)
 
+ **Note :** If agents are already installed you can skip this step.  
+
 ### Task 2 : Get the status of the Defender coverage on the subscription and the workspace
 
 1. Navigate back to Microsoft Defender for Cloud blade, and Click on **Environment settings (1)**. Expand **Azure (2)** to show the **Subscription**, and then expand **Subscription (3)** to show the **Workspace**. Notice the Defender coverage is **13/13 plans  (4)** for the subscription and **2/2 plans** for the workspace, meaning that you are now fully protected using Microsoft Defender for Cloud.

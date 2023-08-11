@@ -1,8 +1,36 @@
-# Module 5 - Data Security Posture Management (DSPM)
+# Module 5 - Data Security Posture Management (Read Only)
 
 Defender CSPM extends existing free posture management capabilities to help security teams gain full visibility across their multicloud and hybrid environments, get integrated, contextual risk insights across their infrastructure, quickly identify their most critical risk with attack path analysis, and proactively remediate vulnerabilities and misconfigurations. And today, new integrated data-aware security posture capabilities empower teams to prevent data breaches with full visibility into the multicloud data estate and pressing risks to sensitive data.
 
-### Task 1: Understanding Microsoft Defender Cloud Security Posture Management
+### Task 1: Understanding Microsoft Data Security Posture Management
+
+**Data Security Posture Management (DSPM)** allows security teams to get ahead of their data risks and prioritize security issues that could result in a data breach. With DSPM you are able to:
+     
+   - Automatically discover sensitive data resources across multiple clouds.
+
+   - Evaluate data sensitivity, data exposure, and how data flows across the organization.
+
+   - Proactively and continuously uncover risks that might lead to data breaches.
+
+   - Detect suspicious activities that might indicate ongoing threats to sensitive data resources.
+     
+1. Defender for Cloud leverages **DSPM** data to prioritize critical data risks by distinguishing them from other risks by:
+
+     - Highlighting attack paths of internet-exposed VMs that have access to sensitive data stores.
+     - Allowing you to leverage Cloud Security Explorer to identify misconfigured data resources that are publicly accessible and contain sensitive data, across multicloud environments. 
+
+      ![](../images/def1.png)
+
+2. Data sensitivity context is also used in Security Alerts and you can quickly filter based on the type of Sensitivity Information. Navigate to **Security alerts** click on **Add filters**, and set it to **Sensitivity info types**.
+
+     ![](../images/def3.png) 
+
+### Task 2: Enabling Defender CSPM plan
+
+In this exercise, you will learn how to enable Defender for CSPM, and leverage Defender for CSPM Capabilities
+
+   >**Note:** To gain access to the capabilities provided by Defender CSPM, you'll need to <a href="https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security">enable the Defender Cloud Security Posture Management (CSPM) plan </a> on your subscription
+
 
 1. **Defender Cloud Security Posture Management**, will reduce the critical risks by:
 
@@ -13,16 +41,6 @@ Defender CSPM extends existing free posture management capabilities to help secu
      - **Get agent and agentless vulnerability scanning**: It gets continuous, real-time monitoring with agentless vulnerability scanning and gain deeper protection from built-in agents.
      
      - **Maintain compliance with multicloud benchmarks**: It follows best practices for multicloud security compliance with controls mapped to major regulatory industry benchmarks, such as the Center for Internet Security, the Payment Card Industry, and the National Institute for Standards and Technology, in a central dashboard. 
-
-2. View the illustration below that depicts the main advantage offered by the Defender Cloud Security Posture Management scenario compared to the three parallel user scenarios for Defender for Cloud. From the icon representing Defender Cloud Security Posture Management, benefits such as visibility, contextual prioritization, and compliance are presented. This graph offers contextual insights for Defender for Cloud.
-
-      ![](../images/m5-img1.png)
-
-### Task 2: Enabling Defender CSPM plan (Read Only)
-
-In this exercise, you will learn how to enable Defender for CSPM, and leverage Defender for CSPM Capabilities
-
-   >**Note:** To gain access to the capabilities provided by Defender CSPM, you'll need to <a href="https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security">enable the Defender Cloud Security Posture Management (CSPM) plan </a> on your subscription
 
 1. In **Azure Portal**, search for **Microsoft Defender for Cloud (1)** and then click on it from the search results **(2)**. 
 

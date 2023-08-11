@@ -70,7 +70,7 @@
 Previously, we briefly explored the Secure Score tile on the overview page. Now let’s dive into this capability and the associated recommendations. Microsoft Defender for Cloud continually assesses your resources. All findings are aggregated into a single score (Secure Score) which measures the current security posture of your subscription; the higher the score, the lower the identified risk level.
 
 
-1. In the **Microsoft Defender for Cloud Overview blade**. From the left navigation pane, under the **Cloud Security** section, press on the **Secure posture** button.
+1. In the **Microsoft Defender for Cloud Overview blade**. From the left navigation pane, under the **Cloud Security** section, click on the **Security posture** button.
 
     ![Overview: Secure Score tile](../images/M1-T2-S1.png) 
 

@@ -4,7 +4,7 @@ As you saw in Module 1, Defender for Cloud CSPM will help you identify weaknesse
 
 <br>
 
-In this module, we will how you can further extend this capability by generating your own queries to proactively hunt for points of entries to reduce the attack surface and decrease the likelihood of compromise.
+In this module, we will learn how you can further extend this capability by generating your own queries to proactively hunt for points of entries to reduce the attack surface and decrease the likelihood of compromise.
 
 ## Contextualize cloud posture management
 
@@ -84,5 +84,7 @@ Defender for Cloud uses the graph to perform an attack path analysis (Attack Pat
 
 9. Then click on **Search** button, and you will see a list of machines that can be the target of this attack path.
 
-    ![Cloud Security Explorer Custom Scenario](../images/mdfc-cloudsecurityexplorersearchresults.png?raw=true). 
+    ![Cloud Security Explorer Custom Scenario](../images/mdfc-cloudsecurityexplorersearchresults.png?raw=true).
+
+**Note:** All the list of machines shown in the image won't be availabe.
 

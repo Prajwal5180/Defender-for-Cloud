@@ -99,7 +99,7 @@ Previously, we briefly explored the Secure Score tile on the overview page. Now 
 
 3. Under **Recommendation**, Click on **Manage access and permissions** and select **Storage account public access should be disallowed** from the drop down list.
 
-     ![](../images/dirsto1.png)
+     ![](../images/M1-T3-S6.1.png)
 
 4. On the top section, notice the following:
 

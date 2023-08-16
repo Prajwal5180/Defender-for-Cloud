@@ -25,11 +25,11 @@
 
 1. Navigate back to Microsoft Defender for Cloud blade, and Click on **Environment settings (1)**. Expand **Azure (2)** to show the **Subscription**, and then expand **Subscription (3)** to show the **Workspace**. Notice the Defender coverage is **11/13 plans  (4)** for the subscription and **2/2 plans** for the workspace, meaning that you are now fully protected using Microsoft Defender for Cloud.
 
-   ![Environment settings](../images/M0-T2-S1.png)
+   ![Environment settings](../images/dfc2.png)
 
-2. From the Environment settings, click on **Subscription (1)**, and notice how all Microsoft Defender for Cloud plans are enabled. 
+2. From the Environment settings, click on **Subscription**, and notice how the Microsoft Defender for Cloud plans are enabled. 
 
-   ![Environment settings](../images/M0-T2-S2.png)
+   ![Environment settings](../images/dfc3.png)
 
 3. Ensure that plans for **Servers** and **Databases (1)** are turned **On**. To check for **SQL servers on machines**, in databases, click on **Select types (2)** and make sure **SQL servers on machines (3)** and **Azure SQL Databases (4)** are toggled **On**.
 

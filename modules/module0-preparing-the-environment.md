@@ -7,17 +7,19 @@
 
    ![Microsoft Defender for Cloud](../images/M0-T1-S1.2.png)   
 
-2. Click on **Getting started (1)** page from the left pane, On the **Upgrade (2)** tab, select both **Azure subscription (3)**, and also the **Workspace name** underneath it. Click on **Upgrade (4)**.
+2. Click on **Getting started (1)** page from the left pane, from the **Upgrade (2)** tab, select  the **Workspace name (3)**. Click on **Upgrade (4)**.
 
     >**Note:** You may need to wait for a few minutes for the upgrade to complete.
 
-   ![Template deployment completed](../images/M0-T1-S2.png)
+   ![Template deployment completed](../images/dfc1.png)
 
 3. On the **Install Agents (1)** tab, select the **Subscription (2)** and click **Install agents (3)** to install agents to the resources in the subscription.
 
+    **Note :** If agents are already installed you can skip this step.  
+
    ![Install Agents](../images/M0-T1-S3.png)
 
- **Note :** If agents are already installed you can skip this step.  
+
 
 ### Task 2 : Get the status of the Defender coverage on the subscription and the workspace
 

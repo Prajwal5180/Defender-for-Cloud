@@ -182,7 +182,7 @@ Asset inventory dashboard allows you to get a single pane of glass view of all y
 
 	> **Note**: If you don't see App Services in the Resource type filter that means it is not loaded yet to recommendations, Note down this step number and verify this later.
 
-	![Inventory: Assign tags](../images/assigntags.gif?raw=true)
+	![Inventory: Assign tags](../images/defassigntag.gif?raw=true)
    
 12. From the filter pane, remove the **Resource type** filter then go to **Add filter** and notice the **Security findings** filter – it allows you to find all resources that are prone to a specific vulnerability. You can also search for CVE, KB ID, name, and missing update.
 

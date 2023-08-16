@@ -78,13 +78,13 @@ Previously, we briefly explored the Secure Score tile on the overview page. Now 
 
 	> **Note**: Your score is shown as a percentage value, but you can also see the number of points on which the score is being calculated based on. 
 
-    ![Overall Secure Score](../images/M1-T2-S2.png)
+    ![Overall Secure Score](../images/dfc6.png)
 
 
    > For more information on how the score is calculated, [refer to the secure score documentation page](https://docs.microsoft.com/en-us/azure/security-center/secure-score-security-controls#how-your-secure-score-is-calculated).
 
 
-5. On the bottom part, you can see a list of subscriptions and their current score. To view the recommendations behind the score, click on **view recommendations**.
+3. On the bottom part, you can see a list of subscriptions and their current score. To view the recommendations behind the score, click on **view recommendations**.
 
 
 ### Task 3: Exploring Security Controls and Recommendations 

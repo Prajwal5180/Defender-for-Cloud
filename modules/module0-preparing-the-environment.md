@@ -33,7 +33,7 @@
 
 3. Ensure that plans for **Servers** and **Databases (1)** are turned **On**. To check for **SQL servers on machines**, in databases, click on **Select types (2)** and make sure **SQL servers on machines (3)** and **Azure SQL Databases (4)** are toggled **On**.
 
-   ![Environment settings](../images/M0-T2-S3.png)
+   ![Environment settings](../images/dfc4.png)
 
 
 ### Task 3 : Configure the data collection settings in Microsoft Defender for Cloud(Read-Only)

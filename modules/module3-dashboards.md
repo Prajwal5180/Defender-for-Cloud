@@ -26,9 +26,9 @@ Other than the overall dashboard we discussed in Module 1, Microsoft Defender fo
 
    ![Ransomware Recommendations](../images/M3-T1-S4.png)
 
-6. Select **asclab-aks (1)** under Resources and scroll to the right and click the **Go to recommendation (2)** link under URL.
+6. Click on expand grid **(1)**, next under **Discover (2)** section, select **asclab-aks (3)** and click the **Go to recommendation (4)** link.
 
-    ![Ransomware Recommendations](../images/M3-T1-S5.png)
+    ![Ransomware Recommendations](../images/dfc7.png)
 
 7. You will be taken to the recommendation details that contains remediation steps and an option to Fix.
 

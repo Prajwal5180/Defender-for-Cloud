@@ -55,7 +55,7 @@
 
 10. On the **Workload Protections** **(1)**, under Cloud Security, you can see the coverage of your **connected resources(2)** for the currently selected subscription. Your current resource coverage should be **fully covered 100% (3)** which means **full protection**. Additionally, you can also view the recent **security alerts (4)**, color-coded by severity.
 
-     ![Overview: Microsoft Defender  for Cloud tile](../images/workload-protection1.png)
+     ![Overview: Microsoft Defender  for Cloud tile](../images/dfc5.png)
 
 11. Next Click on **Inventory** from the **General** section of the Microsoft Defender for Cloud. It shows the number of unmonitored VMs alongside the total covered resources - **you should expect to have zero unmonitored VMs**. Resources are classified according to their health status.
 

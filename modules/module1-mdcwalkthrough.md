@@ -46,18 +46,74 @@
 
     > **Info**: The higher the score, the lower the identified risk level.
 
-9. On the **Regulatory Compliance (1)** tile, you can get insights into your compliance posture based on continuous assessment of both Azure and hybrid cloud environments. This tile shows the following standards which are **Azure Security Benchmark(2), ISO 27001, PCI DSS 3.2.1, and SOC TSP(3)**. Click on **Show all 4 (4)** to check the compliance status.
+9. On the **Regulatory Compliance (1)** tile, you can get insights into your compliance posture based on continuous assessment of both Azure and hybrid cloud environments. This tile shows the following standards which are **Azure Security Benchmark(2)**, and **Lowest compliance regulatory standard (3)** to view the data we first need to add **Security policies**. 
  
      > Clicking on this tile will redirect you to the Regulatory Compliance dashboard – where you can add additional standards and explore the current ones. 
 
-     ![Overview: Regulatory Compliance tile](../images/msdefender4.1.png)
+     ![Overview: Regulatory Compliance tile](../images/regcomp.png)
    
+10. Navigate to **Environment settings (1)**, select the available **Subscription (2)**. 
 
-10. On the **Workload Protections** **(1)**, under Cloud Security, you can see the coverage of your **connected resources(2)** for the currently selected subscription. Your current resource coverage should be **fully covered 100% (3)** which means **full protection**. Additionally, you can also view the recent **security alerts (4)**, color-coded by severity.
+     ![Overview: Regulatory Compliance tile](../images/sub.png)
+
+11. From the **Environment settings** page navigate on **Security policy (1)** and click on **Add more standards (2)** under **Industry & regulatory standards**.
+
+     ![Overview: Regulatory Compliance tile](../images/security.png)
+
+12. On the **Add regulatory compliance standards** page click on **Add** next to **ISO 27001:2013** standard.
+
+     ![Overview: Regulatory Compliance tile](../images/security.png)
+
+13. On the **ISO 27001:2013** assign initiative page click on **Review + Create**.
+
+     ![Overview: Regulatory Compliance tile](../images/isoreviewcreate.png) 
+
+14. Click on **Create**.
+
+     ![Overview: Regulatory Compliance tile](../images/isocreate.png) 
+
+15. Now on the **Security policy** page, click on **Add more standards** under **Industry & regulatory standards** and select **PCI DSS 4** standard and click on **Add**.
+
+     ![Overview: Regulatory Compliance tile](../images/pci.png) 
+
+16. On the **PCI DSS 4** assign initiative page click on **Review + Create**.
+
+     ![Overview: Regulatory Compliance tile](../images/pcireviewcreate.png) 
+
+17.  Click on **Create**.
+
+     ![Overview: Regulatory Compliance tile](../images/pcicreate.png)
+
+     
+18. Now on the **Security policy** page, click on **Add more standards** under **Industry & regulatory standards** and select **SOC 2** standard and click on **Add**.
+
+     ![Overview: Regulatory Compliance tile](../images/soc.png) 
+
+19. From the **SOC 2 Type 2** assign initiative page basic tab navigate to **Parameters** tab.
+
+     ![Overview: Regulatory Compliance tile](../images/socpara.png) 
+
+20. On the **Parameters** tab enter the following parameters and click on **Review + Create (4)**.
+
+	- Allowed registry or registries regex: **[] (1)**
+ 	- Max allowed CPU units: **200m (2)**
+   	- Max allowed memory bytes: **1 (3)** 
+
+     ![Overview: Regulatory Compliance tile](../images/parasoc.png) 
+
+21.  Click on **Create**.
+
+     ![Overview: Regulatory Compliance tile](../images/soccreate.png)
+
+22. Navigate back to **Regulatory Compliance (1)** to view the recently added standards.
+
+  > **Note**: It can take up to two hours for newly added standards to appear under the **Lowest compliance regulatory standard**. Please move on to the next step; you can review the standards later.
+
+22. On the **Workload Protections** **(1)**, under Cloud Security, you can see the coverage of your **connected resources(2)** for the currently selected subscription. Your current resource coverage should be **fully covered 100% (3)** which means **full protection**. Additionally, you can also view the recent **security alerts (4)**, color-coded by severity.
 
      ![Overview: Microsoft Defender  for Cloud tile](../images/dfc5.png)
 
-11. Next Click on **Inventory** from the **General** section of the Microsoft Defender for Cloud. It shows the number of unmonitored VMs alongside the total covered resources - **you should expect to have zero unmonitored VMs**. Resources are classified according to their health status.
+23. Next Click on **Inventory** from the **General** section of the Microsoft Defender for Cloud. It shows the number of unmonitored VMs alongside the total covered resources - **you should expect to have zero unmonitored VMs**. Resources are classified according to their health status.
 
      > Info: 
      > Unmonitored VMs are considered virtual machines that have a Log Analytics agent deployed, but the agent isn't sending data or has other health issues.

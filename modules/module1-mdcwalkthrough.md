@@ -105,9 +105,12 @@
 
      ![Overview: Regulatory Compliance tile](../images/soccreate.png)
 
-22. Navigate back to **Regulatory Compliance (1)** to view the recently added standards.
+22. Navigate back to **Regulatory Compliance (1)** to view the recently added standards click on **Show all 4**.
 
   > **Note**: It can take up to two hours for newly added standards to appear under the **Lowest compliance regulatory standard**. Please move on to the next step; you can review the standards later.
+
+   ![Overview: Regulatory Compliance tile](../images/regulatory.png)
+
 
 22. On the **Workload Protections** **(1)**, under Cloud Security, you can see the coverage of your **connected resources(2)** for the currently selected subscription. Your current resource coverage should be **fully covered 100% (3)** which means **full protection**. Additionally, you can also view the recent **security alerts (4)**, color-coded by severity.
 

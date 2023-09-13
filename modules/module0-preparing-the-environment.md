@@ -1,4 +1,4 @@
-# Module 0 – Preparing the Environment
+# Module A – Preparing the Environment
 
 
 ### Task 1 : Enabling Microsoft Defender for Cloud (Read-Only)

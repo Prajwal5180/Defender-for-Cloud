@@ -1,4 +1,4 @@
-# Module C - Dashboards
+# Module D - Dashboards
 
 ## Overview
 

@@ -1,4 +1,4 @@
-# Module A - Exploring Microsoft Defender for Cloud
+# Module B - Exploring Microsoft Defender for Cloud
 
 
 ### Task 1: Understanding Microsoft Defender for Cloud Dashboard 

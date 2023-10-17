@@ -60,9 +60,9 @@
 
      ![Overview: Regulatory Compliance tile](../images/security.png)
 
-12. On the **Add regulatory compliance standards** page click on **Add** next to **ISO 27001:2013** standard.
+12. On the **Add regulatory compliance standards** serach for **ISO 27001:2013 (1)** page click on **Add (2)** next to **ISO 27001:2013** standard.
 
-     ![Overview: Regulatory Compliance tile](../images/security.png)
+     ![Overview: Regulatory Compliance tile](../images/MB-T1-S12.png)
 
 13. On the **ISO 27001:2013** assign initiative page click on **Review + Create**.
 
@@ -99,7 +99,7 @@
  	- Max allowed CPU units: **200m (2)**
    	- Max allowed memory bytes: **1 (3)** 
 
-     ![Overview: Regulatory Compliance tile](../images/parasoc.png) 
+     ![Overview: Regulatory Compliance tile](../images/MB-T1-S20.png) 
 
 21.  Click on **Create**.
 

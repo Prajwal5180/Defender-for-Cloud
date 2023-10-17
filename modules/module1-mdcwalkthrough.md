@@ -60,7 +60,7 @@
 
      ![Overview: Regulatory Compliance tile](../images/security.png)
 
-12. On the **Add regulatory compliance standards** serach for **ISO 27001:2013 (1)** page click on **Add (2)** next to **ISO 27001:2013** standard.
+12. On the **Add regulatory compliance standards** page, serach for **ISO 27001:2013 (1)** and click on **Add (2)** next to **ISO 27001:2013** standard.
 
      ![Overview: Regulatory Compliance tile](../images/MB-T1-S12.png)
 

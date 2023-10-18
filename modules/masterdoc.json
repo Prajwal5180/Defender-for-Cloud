@@ -3,39 +3,39 @@
   "Language": "English",
   "Files": [
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/getting-started-with-lab.md",
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/getting-started-with-lab.md",
       "Order": 1
     },
     
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/overview.md",
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/overview.md",
       "Order": 2
     },
     
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module0-preparing-the-environment.md",
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module0-preparing-the-environment.md",
       "Order": 3
     },
     
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module1-mdcwalkthrough.md",
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module1-mdcwalkthrough.md",
       "Order": 4
     },
    
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module2-understanding-your-cloudattack-surface.md",
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module2-understanding-your-cloudattack-surface.md",
       "Order": 5
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module3-dashboards.md",
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module3-dashboards.md",
       "Order": 6
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module4-governance-rule.md",
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module4-governance-rule.md",
       "Order": 7
     },
     {
-      "RawFilePath": "https://raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module5-data-security-posture-management.md",
+      "RawFilePath": "https://docs-api.cloudlabs.ai/repos/raw.githubusercontent.com/CloudLabsAI-Azure/Defender-for-Cloud/main/modules/module5-data-security-posture-management.md",
       "Order": 8
     }
     

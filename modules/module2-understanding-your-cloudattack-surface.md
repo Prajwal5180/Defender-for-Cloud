@@ -33,7 +33,7 @@ Internet exposed VM has high severity vulnerabilities (1)** itself provides you 
 
    ![Available Attack Paths](../images/attack1.png?raw=true)
 
-6. Notice you can see that a publicly exposed VM that has a managed identity can read key vault. The path also gives you specifics of which VM and Key Vaults are potential targets.
+6. Notice you can see that a publicly exposed VM that has a port open to the internet can lead to remote access to the VM. The path also gives you specifics of which VMs are potential targets.
 
    ![Attack Paths example scenario detail](../images/attack2.png?raw=true)
 

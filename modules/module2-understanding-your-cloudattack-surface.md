@@ -67,25 +67,18 @@ Internet exposed VM has high severity vulnerabilities (1)** itself provides you 
 
 4. You will see a list of machines that are not only publicly exposed but also vulnerable. Now, let's expand this to identify machines that have permissions to other resources (managed identities). 
 
-5. Click on the **plus (1)** next to Virtual Machines (group), from the drop-down of **select Condition (2)** Select **Identity & Access (3)**, and select **Can authenticate as (4)**.
+5. Click on the **plus (1)** next to Virtual Machines (group), from the drop-down of **select Condition (2)** Select **Networking (3)**, and select **Exposed to the Internet (4)**.
 
-   ![Cloud Security Explorer Custom Scenario](../images/identity-authenticate.png?raw=true)
+   ![Cloud Security Explorer Custom Scenario](../images/attack5.png?raw=true)
 
-6. From the drop-down of **select resource group type (1)**, select **Application identities (2)**, click on **Done (3)**, and click on **plus (4)** next to Application identities (group).
+6. From the drop-down of **Click on + button (1)** to create enable new options, Under **Where** select **Port (2)**, and On **Equals** enter **3389 (3)** next to exposed to internet.
 
-    ![Cloud Security Explorer Custom Scenario](../images/identity-application.png?raw=true)
+    ![Cloud Security Explorer Custom Scenario](../images/attack7.png?raw=true)
 
-7. Now let's add the resource type to which this VM has access via managed identity. From the drop-down of **Select condition (1)**, select **Identity & Access (2)**, and select **Has permissions to (3)**.
-   
-    ![Cloud Security Explorer Custom Scenario](../images/identity-permission.png?raw=true)
-
-8. Now you will need to select the type of resource that this VM can access using a managed identity. From the drop-down of **Select resource type (1)**, select **Object storage (2)**, and click on **Done**.
-
-    ![Cloud Security Explorer Custom Scenario](../images/object-storage.png?raw=true)
 
 9. Then click on **Search** button, and you will see a list of machines that can be the target of this attack path.
 
-    ![Cloud Security Explorer Custom Scenario](../images/mdfc-cloudsecurityexplorersearchresults.png?raw=true).
+    ![Cloud Security Explorer Custom Scenario](../images/attack10.png?raw=true).
 
 **Note:** All the list of machines shown in the image won't be availabe.
 

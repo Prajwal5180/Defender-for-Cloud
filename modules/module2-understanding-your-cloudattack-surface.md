@@ -24,23 +24,24 @@ Defender for Cloud uses the graph to perform an attack path analysis (Attack Pat
 
    ![Attack Paths](../images/mdfc-attackpath.png?raw=true)
 
-3. In **Microsoft Defender for Cloud | Attack path analysis** page. Each attack path represents a scenario that you should be aware of. The title **Internet exposed VM has high severity vulnerabilities and read permission to a Key Vault (1)** itself provides you a quick understanding of how the risk exposure might manifest, this allows you to quickly prioritize your investigation.
+3. In **Microsoft Defender for Cloud | Attack path analysis** page. Each attack path represents a scenario that you should be aware of. The title **
+Internet exposed VM has high severity vulnerabilities (1)** itself provides you a quick understanding of how the risk exposure might manifest, this allows you to quickly prioritize your investigation.
 
    ![Attack Paths example](../images/mdfc-attackpathexample1.png?raw=true)
 
 5. Select **Internet exposed VM has high severity vulnerabilities and read permission to a Key Vault (1)** under Attack path.
 
-   ![Available Attack Paths](../images/mdfc-attackpathsreco.png?raw=true)
+   ![Available Attack Paths](../images/attack1.png?raw=true)
 
 6. Notice you can see that a publicly exposed VM that has a managed identity can read key vault. The path also gives you specifics of which VM and Key Vaults are potential targets.
 
-   ![Attack Paths example scenario detail](../images/mdfc-attackpathexampledetail1.png?raw=true)
+   ![Attack Paths example scenario detail](../images/attack2.png?raw=true)
 
    > **Note**: To learn more about any particular Attack Path simply select it and explore it.
 
 7. Select the **VM (1)** in the attack path, and click on **Recommendations (2)** you will see the vulnerabilities and any security recommendations that are relevant to this machine. 
 
-   ![Attack Paths VM detail](../images/mdfc-attackpathvmedetail.png?raw=true)
+   ![Attack Paths VM detail](../images/attack3.png?raw=true)
 
 8. Select an **Unhealthy** recommendation, you will see the remediation steps, and click on the **Take action** button at the bottom left of the screen you will see the screen where you can implement these remediations.
 

@@ -1,13 +1,12 @@
 # Module A – Preparing the Environment
 
-
 ### Task 1 : Enabling Microsoft Defender for Cloud (Read-Only)
 
 1. Open **Azure Portal** and search for **Microsoft Defender for Cloud (1)** and then click on it from the search results **(2)**.
 
    ![Microsoft Defender for Cloud](../images/M0-T1-S1.2.png)   
 
-2. Click on **Getting started (1)** page from the left pane, from the **Upgrade (2)** tab, select  the **Workspace name (3)**. Click on **Upgrade (4)**.
+2. Click on the **Getting started (1)** page from the left pane, from the **Upgrade (2)** tab, select the **Workspace name (3)**. Click on **Upgrade (4)**.
 
     >**Note:** You may need to wait for a few minutes for the upgrade to complete.
 
@@ -15,7 +14,7 @@
 
 3. On the **Install Agents (1)** tab, select the **Subscription (2)** and click **Install agents (3)** to install agents to the resources in the subscription.
 
-    **Note :** If agents are already installed you can skip this step.  
+    **Note:** If agents are already installed, you can skip this step.
 
    ![Install Agents](../images/M0-T1-S3.png)
 
@@ -23,11 +22,11 @@
 
 ### Task 2 : Get the status of the Defender coverage on the subscription and the workspace
 
-1. Navigate back to Microsoft Defender for Cloud blade, and Click on **Environment settings (1)**. Expand **Azure (2)** to show the **Subscription**, and then expand **Subscription (3)** to show the **Workspace**. Notice the Defender coverage is **11/13 plans  (4)** for the subscription and **2/2 plans** for the workspace, meaning that you are now fully protected using Microsoft Defender for Cloud.
+1. Navigate back to Microsoft Defender for Cloud blade, and click on **Environment settings (1)**. Expand **Azure (2)** to show the **Subscription**, and then expand **Subscription (3)** to show the **Workspace**. Notice the Defender coverage is **11/13 plans (4)** for the subscription and **2/2 plans** for the workspace, meaning that you are now fully protected using Microsoft Defender for Cloud.
 
    ![Environment settings](../images/dfc2.png)
 
-2. From the Environment settings, click on **Subscription**, and notice how the Microsoft Defender for Cloud plans are enabled. 
+2. From the Environment settings, click on **Subscription**, and notice how the Microsoft Defender for Cloud plans are enabled.
 
    ![Environment settings](../images/dfc3.png)
 

@@ -1,6 +1,5 @@
 # Module B - Exploring Microsoft Defender for Cloud
 
-
 ### Task 1: Understanding Microsoft Defender for Cloud Dashboard 
 
 1. Open **Azure Portal** and search for **Microsoft Defender for Cloud (1)** and then click on it from the search results **(2)**.
@@ -94,14 +93,14 @@
 
 ### Task 2: Exploring Secure Score and Recommendations 
 
-Previously, we briefly explored the Secure Score tile on the overview page. Now let’s dive into this capability and the associated recommendations. Microsoft Defender for Cloud continually assesses your resources. All findings are aggregated into a single score (Secure Score) which measures the current security posture of your subscription; the higher the score, the lower the identified risk level.
+Previously, we briefly explored the Secure Score tile on the overview page. Now let’s dive into this capability and the associated recommendations. Microsoft Defender for Cloud continually assesses your resources. All findings are aggregated into a single score (Secure Score), which measures the current security posture of your subscription; the higher the score, the lower the identified risk level.
 
 
 1. In the **Microsoft Defender for Cloud Overview blade**. From the left navigation pane, under the **Cloud Security** section, click on the **Security posture** button.
 
     ![Overview: Secure Score tile](../images/M1-T2-S1.png) 
 
-2. On the Secure score page, **review your current overall secure score percentrage**.
+2. On the Secure score page, **review your current overall secure score percentage**.
 
 	> **Note**: Your score is shown as a percentage value, but you can also see the number of points on which the score is being calculated based on. 
 
@@ -195,7 +194,7 @@ Asset inventory dashboard allows you to get a single pane of glass view of all y
 
     > **Note:** The list can be filtered and sorted.
 
-10. From the filter menu, select the **Resource Group** filter and **select all** under the Value. Again from the filter menu, select **Recommendations**, uncheck the **select all** option under the Value, and then select the **Auditing on SQL Server should be enabled** and click on **Ok**. You can also use the search area within the filter to better find across the list. When you are done exploring remember to clear your filter.
+10. From the filter menu, select the **Resource Group** filter and **select all** under the Value. Again from the filter menu, select **Recommendations**, uncheck the **select all** option under the Value, and then select the **Auditing on SQL Server should be enabled** and click on **Ok**. You can also use the search area within the filter to better find items across the list. When you are done exploring remember to clear your filter.
 
     > **Note**: If you don't see **Auditing on SQL Server should be enabled** in search results that means it is not loaded yet to recommendations and it could take up to 24 hours for all the recommendations to show up. It is possible that during lab time, this may not show up – which is the case sometimes. If you don't see the data in **Recommendations**, you can note down this step number then continue to the next exercise and verify this later.
 
@@ -213,7 +212,7 @@ Asset inventory dashboard allows you to get a single pane of glass view of all y
    
 12. From the filter pane, remove the **Resource type** filter then go to **Add filter** and notice the **Security findings** filter – it allows you to find all resources that are prone to a specific vulnerability. You can also search for CVE, KB ID, name, and missing update.
 
-13. From the filter pane, remove the **Security findings** filter if you added in the previous step then from the top menu, click on **Open query**.
+13. From the filter pane, remove the **Security findings** filter you added in the previous step then from the top menu, click on **Open query**.
 
     ![Inventory: Assign tags](../images/inventory-open-query-new.1.png)
 
@@ -227,9 +226,9 @@ Asset inventory dashboard allows you to get a single pane of glass view of all y
 
 ### Task 5: Understanding pricing
 
-The pricing criteria depends on the plan you enable. In addition, as a part of Foundational CSPM (free), you get several items like Secure Score, Asset Inventory, Security Recommendations, etc.
+The pricing criteria depend on the plan you enable. In addition, as a part of Foundational CSPM (free), you get several items like Secure Score, Asset Inventory, Security Recommendations, etc.
 
-Refer the following to learn more about Defender for cloud pricing:
+Refer to the following to learn more about Defender for cloud pricing:
 
  - [Pricing Page](https://azure.microsoft.com/en-us/pricing/details/defender-for-cloud/?v=17.23h)
 
@@ -253,10 +252,10 @@ Refer the following to learn more about Defender for cloud pricing:
 
    ***The dashboard includes the following sections:***
 
-	- **Microsoft Defender for Cloud coverage (1)** - Here you can see the resources types that's in your subscription and eligible for protection by Defender for Cloud. Wherever relevant, you can upgrade here as well. If you want to upgrade all possible eligible resources, select Upgrade all.
+	- **Microsoft Defender for Cloud coverage (1)** - Here you can see the resource types that are in your subscription and eligible for protection by Defender for Cloud. Wherever relevant, you can upgrade here as well. If you want to upgrade all possible eligible resources, select Upgrade All.
 
-	- **Security alerts (2)** - When Defender for Cloud detects a threat in any area of your environment, it generates an alert. These alerts describe details of the affected resources, suggested remediation steps, and in some cases an option to trigger a logic app in response. Selecting anywhere in this graph opens the Security alerts page.
+	- **Security alerts (2)** - When Defender for Cloud detects a threat in any area of your environment, it generates an alert. These alerts describe details of the affected resources, suggested remediation steps, and in some cases an option to trigger a logic app in response. Selecting anywhere in this graph opens the Security Alerts page.
 
  	- **Advanced protection (3)** - Defender for Cloud includes many advanced threat protection capabilities for virtual machines, SQL databases, containers, web applications, your network, and more. In this advanced protection section, you can see the status of the resources in your selected subscriptions for each of these protections. Select any of them to go directly to the configuration area for that protection type.
 
-	- **Insights (4)** - This rolling pane of news, suggested reading, and high priority alerts gives Defender for Cloud's insights into pressing security matters that are relevant to you and your subscription. Whether it's a list of high severity CVEs discovered on your VMs by a vulnerability analysis tool, or a new blog post by a member of the Defender for Cloud team, you'll find it here in the Insights panel.
+	- **Insights (4)** - This rolling pane of news, suggested reading and high-priority alerts give Defender for Cloud insights into pressing security matters that are relevant to you and your subscription. Whether it's a list of high-severity CVEs discovered on your VMs by a vulnerability analysis tool, or a new blog post by a member of the Defender for Cloud team, you'll find it here in the Insights panel.

@@ -8,7 +8,7 @@
 
    ![](../images/img-2.png "Lab Environment")
  
-1. Verify all the Virtual Machines are running. If not, please click on **Start** action button in the **Resources** tab.
+1. Verify all the Virtual Machines are running. If not, please click on the **Start** action button in the **Resources** tab.
 
    ![](../images/startresource-1.png "Lab Environment")
 
@@ -38,11 +38,11 @@
 
 1. If a **Welcome to Microsoft Azure** popup window appears, click **Maybe Later** to skip the tour.
    
-1. Now you will see Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
+1. Now you will see the Azure Portal Dashboard, click on **Resource groups** from the Navigate panel to see the resource groups.
 
    ![](../images/select-rg.png "Resource groups")
    
-1. Confirm you have a resource groups present as shown in the below screenshot.
+1. Confirm you have resource groups present as shown in the below screenshot.
 
    ![](../images/img-9.png "Resource groups")
    

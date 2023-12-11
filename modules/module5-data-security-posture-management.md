@@ -1,10 +1,10 @@
 # Module F - Data Security Posture Management (Read Only)
 
-Defender CSPM extends existing free posture management capabilities to help security teams gain full visibility across their multicloud and hybrid environments, get integrated, contextual risk insights across their infrastructure, quickly identify their most critical risk with attack path analysis, and proactively remediate vulnerabilities and misconfigurations. And today, new integrated data-aware security posture capabilities empower teams to prevent data breaches with full visibility into the multicloud data estate and pressing risks to sensitive data.
+Defender CSPM extends existing free posture management capabilities to help security teams gain full visibility across their multi-cloud and hybrid environments, get integrated, contextual risk insights across their infrastructure, quickly identify their most critical risk with attack path analysis, and proactively remediate vulnerabilities and misconfigurations. Today, new integrated data-aware security posture capabilities empower teams to prevent data breaches with full visibility into the multi-cloud data estate and pressing risks to sensitive data.
 
 ### Task 1: Understanding Microsoft Data Security Posture Management
 
-**Data Security Posture Management (DSPM)** allows security teams to get ahead of their data risks and prioritize security issues that could result in a data breach. With DSPM you are able to:
+**Data Security Posture Management (DSPM)** allows security teams to get ahead of their data risks and prioritize security issues that could result in a data breach. With DSPM you can:
      
    - Automatically discover sensitive data resources across multiple clouds.
 
@@ -17,7 +17,7 @@ Defender CSPM extends existing free posture management capabilities to help secu
 1. Defender for Cloud leverages **DSPM** data to prioritize critical data risks by distinguishing them from other risks by:
 
      - Highlighting attack paths of internet-exposed VMs that have access to sensitive data stores.
-     - Allowing you to leverage Cloud Security Explorer to identify misconfigured data resources that are publicly accessible and contain sensitive data, across multicloud environments. 
+     - Allowing you to leverage Cloud Security Explorer to identify misconfigured data resources that are publicly accessible and contain sensitive data, across multi-cloud environments. 
 
       ![](../images/def1.png)
 
@@ -27,20 +27,20 @@ Defender CSPM extends existing free posture management capabilities to help secu
 
 ### Task 2: Enabling Defender CSPM plan
 
-In this exercise, you will learn how to enable Defender for CSPM, and leverage Defender for CSPM Capabilities
+In this exercise, you will learn how to enable Defender for CSPM and leverage Defender for CSPM Capabilities
 
    >**Note:** To gain access to the capabilities provided by Defender CSPM, you'll need to <a href="https://learn.microsoft.com/en-us/azure/defender-for-cloud/enable-enhanced-security">enable the Defender Cloud Security Posture Management (CSPM) plan </a> on your subscription
 
 
 1. **Defender Cloud Security Posture Management**, will reduce the critical risks by:
 
-     - **Monitor your multicloud security posture**: It gets continuous security assessments of your resources running across Microsoft Azure, AWS, Google Cloud Platform, and on-premises.
+     - **Monitor your multi-cloud security posture**: It gets continuous security assessments of your resources running across Microsoft Azure, AWS, Google Cloud Platform, and on-premises.
      
      - **Prioritize risks with contextual insights**: Identifies your most critical risks with insights from the security operations center (SOC), DevOps, APIs, Microsoft Defender External Attack Surface Management, Microsoft Entra Permissions Management, and Microsoft Purview, all in a single view.
      
-     - **Get agent and agentless vulnerability scanning**: It gets continuous, real-time monitoring with agentless vulnerability scanning and gain deeper protection from built-in agents.
+     - **Get agent and agentless vulnerability scanning**: It gets continuous, real-time monitoring with agentless vulnerability scanning and gains deeper protection from built-in agents.
      
-     - **Maintain compliance with multicloud benchmarks**: It follows best practices for multicloud security compliance with controls mapped to major regulatory industry benchmarks, such as the Center for Internet Security, the Payment Card Industry, and the National Institute for Standards and Technology, in a central dashboard. 
+     - **Maintain compliance with multi-cloud benchmarks**: It follows best practices for multi-cloud security compliance with controls mapped to major regulatory industry benchmarks, such as the Center for Internet Security, the Payment Card Industry, and the National Institute for Standards and Technology, in a central dashboard. 
 
 1. In **Azure Portal**, search for **Microsoft Defender for Cloud (1)** and then click on it from the search results **(2)**. 
 

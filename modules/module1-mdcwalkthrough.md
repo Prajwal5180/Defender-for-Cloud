@@ -14,7 +14,7 @@
    ![Microsoft Defender for Cloud Snapshot](../images/M1-T1-S1.png)  
 
 
-3. Note that  the **top menu** bar allows to view and filter subscriptions by selecting the **subscriptions button**. In this lab we will use only one but selecting different/additional subscriptions will adjust the interface to reflect the security posture for the selected subscriptions.
+3. Note that  the **top menu** bar allows to view and filter subscriptions by selecting the **Subscriptions** button. In this lab we will use only one but selecting different/additional subscriptions will adjust the interface to reflect the security posture for the selected subscriptions.
 
    ![Microsoft Defender for Cloud Snapshot](../images/M1-T1-S2.png)  
 
@@ -26,13 +26,13 @@
 
     ![Microsoft Defender for Cloud: Top menu](../images/M1-T1-S5.png) 
 
-6. From the top menu bar, **click** on **Azure subscriptions**.
+6. From the top menu bar, click on **Azure subscriptions**.
 	
     ![Microsoft Defender for Cloud: Coverage](../images/M1-T1-S6.png)
 
     - This will bring you into the environment settings. Then select the available subscription. 
 
-   	![Microsoft Defender for Cloud: Coverage](../images/M1-T1-S6.1.png)
+   	    ![Microsoft Defender for Cloud: Coverage](../images/M1-T1-S6.1.png)
 
 7. On the **Defender plans** page, note that your subscription is fully covered – which means that your subscription is covered by Microsoft Defender for Cloud. 	
 
@@ -40,13 +40,13 @@
 
     > **Info**: This page shows a list of subscriptions and their coverage type. You can use this page to find subscriptions that are not covered by Microsoft Defender for Cloud and help you identify “shadow IT” subscriptions.
 
-8. Go back to the **Overview** page, and look at the **Secure Posture** tile, you can see your current score along with the number of completed controls and recommendations. Clicking on this tile will redirect you to a drill-down view across subscriptions.
+8. Go back to the **Overview** page, and look at the **Security posture** tile, you can see your current score along with the number of completed controls and recommendations. Clicking on this tile will redirect you to a drill-down view across subscriptions.
 
     ![Overview: Secure Score tile](../images/M1-T1-S8.png)
 
     > **Info**: The higher the score, the lower the identified risk level.
 
-9. On the **Regulatory Compliance (1)** tile, you can get insights into your compliance posture based on continuous assessment of both Azure and hybrid cloud environments. This tile shows the following standards which are **Azure Security Benchmark(2)**, and **Lowest compliance regulatory standard (3)** to view the data we first need to add **Security policies**. 
+9. On the **Regulatory Compliance (1)** tile, you can get insights into your compliance posture based on continuous assessment of both Azure and hybrid cloud environments. This tile shows the following standards which are **Microsoft cloud Security benchmark (2)**, and **Lowest compliance regulatory standard (3)** to view the data we first need to add **Security policies**. 
  
      > Clicking on this tile will redirect you to the Regulatory Compliance dashboard – where you can add additional standards and explore the current ones. 
 
@@ -56,63 +56,31 @@
 
      ![Overview: Regulatory Compliance tile](../images/sub.png)
 
-11. From the **Environment settings** page navigate on **Security policy (1)** and click on **Add more standards (2)** under **Industry & regulatory standards**.
+1. From the **Environment settings** page navigate on **Security policies (1)**. In the search bar, search for **ISO 27001:2013 (2)**. Click on the toggle button to change the status to **On (3)**.
 
-     ![Overview: Regulatory Compliance tile](../images/security.png)
-
-12. On the **Add regulatory compliance standards** page, serach for **ISO 27001:2013 (1)** and click on **Add (2)** next to **ISO 27001:2013** standard.
-
-     ![Overview: Regulatory Compliance tile](../images/MB-T1-S12.png)
-
-13. On the **ISO 27001:2013** assign initiative page click on **Review + Create**.
-
-     ![Overview: Regulatory Compliance tile](../images/isoreviewcreate.png) 
-
-14. Click on **Create**.
-
-     ![Overview: Regulatory Compliance tile](../images/isocreate.png) 
-
-15. Now on the **Security policy** page, click on **Add more standards** under **Industry & regulatory standards** and select **PCI DSS 4** standard and click on **Add**.
-
-     ![Overview: Regulatory Compliance tile](../images/pci.png) 
-
-16. On the **PCI DSS 4** assign initiative page click on **Review + Create**.
-
-     ![Overview: Regulatory Compliance tile](../images/pcireviewcreate.png) 
-
-17.  Click on **Create**.
-
-     ![Overview: Regulatory Compliance tile](../images/pcicreate.png)
-
+     ![Overview: Regulatory Compliance tile](../images/defender1.4.png)
      
-18. Now on the **Security policy** page, click on **Add more standards** under **Industry & regulatory standards** and select **SOC 2** standard and click on **Add**.
+18. Now on the **Security policies (1)** page, In the search bar, search for **SOC 2 Type 2 (2)**. Click on the toggle button to change the status to **On (3)**.
 
-     ![Overview: Regulatory Compliance tile](../images/soc.png) 
+     ![Overview: Regulatory Compliance tile](../images/defender1.5.png) 
 
-19. From the **SOC 2 Type 2** assign initiative page basic tab navigate to **Parameters** tab.
-
-     ![Overview: Regulatory Compliance tile](../images/socpara.png) 
-
-20. On the **Parameters** tab enter the following parameters and click on **Review + Create (4)**.
+1. On the **Set parameters** blade, enter the following details and click on **Save (4)**.
 
 	- Allowed registry or registries regex: **[] (1)**
  	- Max allowed CPU units: **200m (2)**
    	- Max allowed memory bytes: **1 (3)** 
 
-     ![Overview: Regulatory Compliance tile](../images/MB-T1-S20.png) 
+        ![Overview: Regulatory Compliance tile](../images/defender1.6.png) 
 
-21.  Click on **Create**.
-
-     ![Overview: Regulatory Compliance tile](../images/soccreate.png)
 
 22. Navigate back to **Regulatory Compliance** to view the recently added standards click on **Show all 4**.
 
-  > **Note**: It can take up to two hours for newly added standards to appear under the **Lowest compliance regulatory standard**. Please move on to the next step; you can review the standards later.
+    > **Note**: It can take up to two hours for newly added standards to appear under the **Lowest compliance regulatory standard**. Please move on to the next step; you can review the standards later.
 
-   ![Overview: Regulatory Compliance tile](../images/regulatory.png)
+    ![Overview: Regulatory Compliance tile](../images/regulatory.png)
 
 
-22. On the **Workload Protections** **(1)**, under Cloud Security, you can see the coverage of your **connected resources(2)** for the currently selected subscription. Your current resource coverage should be **fully covered 100% (3)** which means **full protection**. Additionally, you can also view the recent **security alerts (4)**, color-coded by severity.
+22. On the **Workload Protections** **(1)**, under Cloud Security, you can see the coverage of your **connected resources (2)** for the currently selected subscription. Your current resource coverage should be **fully covered 100% (3)** which means **full protection**. Additionally, you can also view the recent **security alerts (4)**, color-coded by severity.
 
      ![Overview: Microsoft Defender  for Cloud tile](../images/dfc5.png)
 
@@ -133,7 +101,7 @@ Previously, we briefly explored the Secure Score tile on the overview page. Now 
 
     ![Overview: Secure Score tile](../images/M1-T2-S1.png) 
 
-2. On the Secure Score page, **review your current overall secure score percentrage**.
+2. On the Secure score page, **review your current overall secure score percentrage**.
 
 	> **Note**: Your score is shown as a percentage value, but you can also see the number of points on which the score is being calculated based on. 
 
@@ -211,7 +179,7 @@ Asset inventory dashboard allows you to get a single pane of glass view of all y
 
     ![linux-recommendations](../images/ex3.step7.png)
 
-7. Open the resource health pane by selecting the resource. Click on **asclab-linux**. Alternately. you can also right-click on any resource and select **view resource**. You may not see **view resource** directly due to different screen resolutions, then you have to click on ellipse(...) and then select **view resource**.
+7. Open the resource health pane by selecting the resource. Click on **asclab-linux**. Alternately. you can also right-click on any resource and select **view resource**. You may not see **view resource** directly due to different screen resolutions, then you have to click on ellipse(...) and then select **View resource (3)**.
 
     ![Remediate a resource](../images/viewres.png)
 
@@ -253,7 +221,7 @@ Asset inventory dashboard allows you to get a single pane of glass view of all y
  
     ![Inventory: Assign tags](../images/run-query.1.png)
 
-17. Save the query for later use by clicking on **Save as** from the top menu. You can use it to create periodic reports. Name the report as *asc-filtered-query* and select **save**.
+17. Save the query for later use by clicking on **Save as** from the top menu. You can use it to create periodic reports. Name the report as **asc-filtered-query** and select **Save**.
 
     ![Inventory: Assign tags](../images/M2-EX3-17.png)
 
@@ -270,7 +238,7 @@ Refer the following to learn more about Defender for cloud pricing:
  - [Foundational CSPM vs. Defender CSPM capabilities](https://learn.microsoft.com/en-us/azure/defender-for-cloud/concept-cloud-security-posture-management)
 
 
-1. From **Microsoft Defender for Cloud**, click on **Workbook (1)** select **Public Template (2)** tab and click on **Cost Estimation (3)** 
+1. From **Microsoft Defender for Cloud**, click on **Workbooks (1)** select **Public Templates (2)** tab and click on **Cost Estimation (3)** 
 
     ![MDC pricing](../images/costdefnder.png)
 

@@ -18,14 +18,13 @@ Defender for Cloud uses the graph to perform an attack path analysis (Attack Pat
 
 1. In Azure Portal, search for **Microsoft Defender for Cloud (1)** and then click on it from the search results **(2)**.
 
-   ![Attack Paths](../images/M0-T1-S1.1.png)
+   ![Attack Paths](../images/M0-T1-S1.2.png)
 
 2. From **Defender for Cloud** menu, click on the **Recommendations (1)** blade to see different Attack Paths that Defender has identified. Attack Path looks for points of entries and lateral movement not only in Azure but also in AWS and GCP. Click on the **Attack path (2)**.
 
    ![Attack Paths](../images/mdfc-attackpath.png?raw=true)
 
-3. In **Microsoft Defender for Cloud | Attack path analysis** page. Each attack path represents a scenario that you should be aware of. The title **
-Internet exposed VM has high severity vulnerabilities (1)** itself provides you a quick understanding of how the risk exposure might manifest, this allows you to quickly prioritize your investigation.
+3. In **Microsoft Defender for Cloud | Attack path analysis** page. Each attack path represents a scenario that you should be aware of. The title **Internet exposed VM has high severity vulnerabilities (1)** itself provides you a quick understanding of how the risk exposure might manifest, this allows you to quickly prioritize your investigation.
 
    ![Attack Paths example](../images/mdfc-attackpathexample1.png?raw=true)
 
@@ -59,26 +58,25 @@ Internet exposed VM has high severity vulnerabilities (1)** itself provides you 
 
    ![Cloud Security Explorer](../images/m1-img6.png?raw=true)
 
-2. Let's build our scenario where we will identify public vulnerable machines that can access object storage.
+1. Let's build our scenario where we will identify public vulnerable machines that can access object storage.
 
-3. Choose **Internet exposed VMs with high severity vulnerabilities (1)** template from **Query Templates** and click on **Search (2)**.
+1. Choose **Internet exposed VMs with high severity vulnerabilities (1)** template from **Query Templates** and click on **Search (2)**.
 
    ![Cloud Security Explorer VM example](../images/select-query.png?raw=true)
 
-4. You will see a list of machines that are not only publicly exposed but also vulnerable. Now, let's expand this to identify machines that have permissions to other resources (managed identities). 
+1. You will see a list of machines that are not only publicly exposed but also vulnerable. Now, let's expand this to identify machines that have permissions to other resources (managed identities). 
 
-5. Click on the **plus (1)** next to Virtual Machines (group), from the drop-down of **select Condition (2)** Select **Networking (3)**, and select **Exposed to the Internet (4)**.
+1. Click on the **plus (1)** next to Virtual Machines (group), from the drop-down of **select Condition (2)** Select **Networking (3)**, and select **Exposed to the Internet (4)**.
 
    ![Cloud Security Explorer Custom Scenario](../images/attack5.png?raw=true)
 
-6. From the drop-down of **Click on + button (1)** to create enable new options, Under **Where** select **Port (2)**, and On **Equals** enter **3389 (3)** next to exposed to internet.
+1. From the drop-down of **Click on + button (1)** to create enable new options, Under **Where** select **Port (2)**, and On **Equals** enter **3389 (3)** next to exposed to internet.
 
     ![Cloud Security Explorer Custom Scenario](../images/attack7.png?raw=true)
 
+1. Then click on **Search** button, and you will see a list of machines that can be the target of this attack path.
 
-9. Then click on **Search** button, and you will see a list of machines that can be the target of this attack path.
-
-    ![Cloud Security Explorer Custom Scenario](../images/attack10.png?raw=true).
+    ![Cloud Security Explorer Custom Scenario](../images/attack10.png?raw=true)
 
 **Note:** All the list of machines shown in the image won't be availabe.
 

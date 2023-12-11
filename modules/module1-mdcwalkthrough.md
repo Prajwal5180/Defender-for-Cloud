@@ -9,12 +9,12 @@
 
 2. On the **Overview (1)** blade notes that it now provides a unified view into the security posture and includes multiple independent cloud security pillars such as **Security posture, Regulatory compliance, Workload protections, Firewall Manager, Inventory, and Information Protection (preview) (2)**. Each of these pillars also has its own dedicated dashboard allowing deeper insights and actions around that vertical, providing easy access and better visibility for security professionals.
 
-   > **Info**: Microsoft Defender for Cloud takes time to populate information such as secure score, compliance, recommendations, etc. after enabling the services and enrolling the servers to Microsoft Defender for Cloud.
+   > **Info**: Microsoft Defender for Cloud takes time to populate information such as secure score, compliance, recommendations, etc. after enabling the services and enrolling the servers in Microsoft Defender for Cloud.
  
    ![Microsoft Defender for Cloud Snapshot](../images/M1-T1-S1.png)  
 
 
-3. Note that  the **top menu** bar allows to view and filter subscriptions by selecting the **Subscriptions** button. In this lab we will use only one but selecting different/additional subscriptions will adjust the interface to reflect the security posture for the selected subscriptions.
+3. Note that the **top menu** bar allows you to view and filter subscriptions by selecting the **Subscriptions** button. In this lab, we will use only one but selecting different/additional subscriptions will adjust the interface to reflect the security posture of the selected subscriptions.
 
    ![Microsoft Defender for Cloud Snapshot](../images/M1-T1-S2.png)  
 
@@ -224,8 +224,6 @@ Asset inventory dashboard allows you to get a single pane of glass view of all y
 17. Save the query for later use by clicking on **Save as** from the top menu. You can use it to create periodic reports. Name the report as **asc-filtered-query** and select **Save**.
 
     ![Inventory: Assign tags](../images/M2-EX3-17.png)
-
-
 
 ### Task 5: Understanding pricing
 

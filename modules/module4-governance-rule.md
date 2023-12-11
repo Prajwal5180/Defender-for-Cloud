@@ -10,13 +10,9 @@ The rule assigns an owner and due date to ensure the recommendations are handled
 
 ### Task 1: Assign Governance Rule
 
-1. From the **Defender for Cloud** menu, click on **Environment Settings (1)** page and select your subscription **(2)**.
+1. From the **Defender for Cloud** menu, click on **Environment Settings (1)** page and click on **Governance rules (2)**.
 
-    ![](../images/m1-img2.png)
-
-2. Under **Policy settings** Select **Governance Rules (1)** and click on **Enter the new experience (2)**.
-
-    ![](../images/m1-img19.png)
+    ![](../images/defender1.7.png)
 
 3. Click on **+ Create governance rule**.
 
@@ -33,9 +29,9 @@ The rule assigns an owner and due date to ensure the recommendations are handled
    - **Email address**: <inject key="AzureAdUserEmail"></inject> **(3)**
    - **Remediation timeframe**: `90 days` **(4)**
 
-    ![](../images/m1-img22.png)
+        ![](../images/m1-img22.png)
 
-6. On the **Rule created successfully** pop-up select the check box next to **Apply rule to the existing recommendations that are unassigned** and click on **Ok**.
+6. On the **Rule created successfully** pop-up select the check box next to **Apply rule to the 42 existing recommendations that are unassigned** and click on **OK**.
 
     ![](../images/a1.6.png)
 

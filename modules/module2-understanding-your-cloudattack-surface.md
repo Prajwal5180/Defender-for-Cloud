@@ -1,4 +1,4 @@
-# Module C - Understanding your Cloud Attack Surface
+# Exercise 3 - Understanding your Cloud Attack Surface
 <br>
 As you saw in Module 1, Defender for Cloud CSPM will help you identify weaknesses against best practices based on the workload running in your Azure tenant or subscription. These deviations are presented as recommendations, and we performed a walkthrough of some of them. 
 

@@ -1,4 +1,4 @@
-# Exercide 1 – Enabling Microsoft Defender for Cloud and Get the status of the Defender coverage on the subscription and the workspace
+# Exercise 1 – Enabling Microsoft Defender for Cloud and Get the status of the Defender coverage on the subscription and the workspace
 
 ### Task 1: Enabling Microsoft Defender for Cloud (Read-Only)
 

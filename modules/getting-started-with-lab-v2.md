@@ -1,6 +1,6 @@
-# Getting Started with Your Microsoft 365 Defender Suite Workshop
+# Getting Started with Your Microsoft Defender for Cloud Workshop
 
-Welcome to your Microsoft 365 Defender Suite Workshop! We've prepared a seamless environment for you to explore and learn about Microsoft 365 Defender services. Let's begin by making the most of this experience:
+Welcome to your Microsoft Defender for Cloud Workshop! We've prepared a seamless environment for you to explore and learn about Microsoft 365 Defender services. Let's begin by making the most of this experience:
 
 ## Accessing Your Lab Environment
 
